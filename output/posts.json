@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Монголын махны экспорт өсч байна",
+    "slug": "mongolian-meat-export-growing",
+    "excerpt": "Монгол улс махны экспортоо нэмэгдүүлж, олон улсын зах зээлд хүчээ сориорой.",
+    "content": "<p>Монгол улс 2024 онд махны экспортоо өмнөх оноос 25% өсгөсөн бөгөөд энэ нь дэлхийн зах зээлд монгол махны нэр хүнд өсч буйг харуулж байна.</p>",
+    "translations": [
+      { "language": "en", "title": "Mongolian Meat Export Growing", "excerpt": "Mongolia is increasing its meat exports and competing in international markets.", "content": "<p>In 2024, Mongolia increased its meat exports by 25% compared to the previous year, showing the growing reputation of Mongolian meat in the world market.</p>" }
+    ]
+  },
+  {
+    "title": "Арцат Алтайн Уулс шинэ үйлдвэрээ нээлээ",
+    "slug": "new-factory-opening",
+    "excerpt": "Бид шинэ, орчин үеийн мах боловсруулах үйлдвэрээ нээлээ.",
+    "content": "<p>Арцат Алтайн Уулс ХХК өнөөдөр Улаанбаатар хотод шинэ үйлдвэрээ нээлээ. Энэхүү үйлдвэр нь олон улсын стандартад нийцсэн, хамгийн орчин үеийн технологиор тоноглогдсон.</p>",
+    "translations": [
+      { "language": "en", "title": "Artzat Altai Uuls Opens New Factory", "excerpt": "We have opened our new, modern meat processing factory.", "content": "<p>Artzat Altai Uuls LLC opened its new factory in Ulaanbaatar today. This factory meets international standards and is equipped with the most modern technology.</p>" }
+    ]
+  }
+]

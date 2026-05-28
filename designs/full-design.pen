@@ -1,0 +1,4271 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "fuZ6I",
+      "x": 0,
+      "y": 0,
+      "name": "Homepage",
+      "width": 1280,
+      "fill": "#F8F6F2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "n9caaL",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "SLnqR",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bWtGy",
+                  "fill": "#1D5C37",
+                  "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+                  "fontFamily": "Manrope",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "H1DoXj",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rIDP5",
+                  "fill": "#1A1A18",
+                  "content": "БҮТЭЭГДЭХҮҮН",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "BNcW2",
+                  "fill": "#1A1A18",
+                  "content": "ТЕНДЕР",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "s5B4r8",
+                  "fill": "#1A1A18",
+                  "content": "МЭДЭЭ",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "u33pn",
+                  "fill": "#1A1A18",
+                  "content": "БИДНИЙ ТУХАЙ",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "A0xqxp",
+                  "fill": "#1A1A18",
+                  "content": "ХОЛБОО",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lrPBG",
+              "fill": "#1D5C37",
+              "cornerRadius": 4,
+              "padding": [
+                14,
+                32
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "E7I0X",
+                  "fill": "#FFFFFF",
+                  "content": "ЛАВЛАХ",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tam52",
+              "name": "Cart Icon",
+              "width": 40,
+              "height": 40,
+              "fill": "#F8FAFD",
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Uu1MZ",
+                  "content": "🛒",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "L2Wgw8",
+          "width": "fill_container",
+          "height": 600,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "dPPSw",
+              "fill": "#1D5C37",
+              "content": "МОНГОЛ ХҮНСНИЙ БОЛОВСРУУЛАЛТ",
+              "fontFamily": "Satoshi",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "TT3UJ",
+              "fill": "#1A1A18",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Premium Food Processing For Modern Markets",
+              "textAlign": "center",
+              "fontFamily": "Manrope",
+              "fontSize": 56,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "jUSLS",
+              "fill": "#3D3D38",
+              "content": "Монголын уугуул түүхий эдээс эхэлсэн",
+              "fontFamily": "Satoshi",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "I9GoCs",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HOWkO",
+                  "fill": "#1D5C37",
+                  "cornerRadius": 4,
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GYl8C",
+                      "fill": "#FFFFFF",
+                      "content": "БҮТЭЭГДЭХҮҮН ҮЗЭХ",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "llyTX",
+                  "fill": "#00000000",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "#1D5C37"
+                  },
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sUrls",
+                      "fill": "#1D5C37",
+                      "content": "ХАМТРАГЧ БОЛОХ →",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HbKS8",
+          "width": "fill_container",
+          "fill": "#F0EDE7",
+          "padding": 48,
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "GaGtG",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FNhYg",
+                  "fill": "#1D5C37",
+                  "content": "25+",
+                  "fontFamily": "Manrope",
+                  "fontSize": 48,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "TLZmq",
+                  "fill": "#3D3D38",
+                  "content": "ЖИЛИЙН ТУРШЛАГА",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "AYv1I",
+                  "width": 40,
+                  "height": 2,
+                  "fill": "#F4862A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ydmKi",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S7dNvm",
+                  "fill": "#1D5C37",
+                  "content": "150+",
+                  "fontFamily": "Manrope",
+                  "fontSize": 48,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "bOoQo",
+                  "fill": "#3D3D38",
+                  "content": "БҮТЭЭГДЭХҮҮН",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "gLlEw",
+                  "width": 40,
+                  "height": 2,
+                  "fill": "#F4862A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o1WIl9",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nrsqS",
+                  "fill": "#1D5C37",
+                  "content": "30+",
+                  "fontFamily": "Manrope",
+                  "fontSize": 48,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "b3vu9d",
+                  "fill": "#3D3D38",
+                  "content": "УЛС ОРОН",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "MQCP5",
+                  "width": 40,
+                  "height": 2,
+                  "fill": "#F4862A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Fl6Ag",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NhJEr",
+                  "fill": "#1D5C37",
+                  "content": "500T",
+                  "fontFamily": "Manrope",
+                  "fontSize": 48,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "Z5bVB",
+                  "fill": "#3D3D38",
+                  "content": "ХҮЧИН ЧАДАЛ",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "e7esQ",
+                  "width": 40,
+                  "height": 2,
+                  "fill": "#F4862A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "R7ixWz",
+          "width": "fill_container",
+          "fill": "#F8FAFD",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "i8t4Vd",
+              "fill": "#1D5C37",
+              "content": "БҮТЭЭГДЭХҮҮН",
+              "fontFamily": "Satoshi",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "uVhsc",
+              "fill": "#1A1A18",
+              "content": "Дэлхийн стандартад нийцсэн",
+              "fontFamily": "Manrope",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "n1zAA3",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Fdr3E",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "mayumimaciel",
+                    "link": "https://unsplash.com/@mayumimaciel",
+                    "author": "Mayumi Maciel"
+                  },
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1692106914605-7cb6c5e3c1bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODM3NDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vHwNf",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#F0EDE7",
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qrk6p",
+                      "fill": "#E0431A",
+                      "cornerRadius": 4,
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UD5GO",
+                          "fill": "#FFFFFF",
+                          "content": "СВЕЖИЙ МАХ",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "z79xb0",
+                      "fill": "#1A1A18",
+                      "content": "Үхрийн мах",
+                      "fontFamily": "Manrope",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JpDb8",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "ninjason",
+                    "link": "https://unsplash.com/@ninjason",
+                    "author": "Jason Leung"
+                  },
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1749451431746-ba540853bb02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODM3NDV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HshaA",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#F0EDE7",
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wTqt9",
+                      "fill": "#E0431A",
+                      "cornerRadius": 4,
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zKbAw",
+                          "fill": "#FFFFFF",
+                          "content": "СВЕЖИЙ МАХ",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "RM09h",
+                      "fill": "#1A1A18",
+                      "content": "Хонины мах",
+                      "fontFamily": "Manrope",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f9GBh5",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "caleb_woods",
+                    "link": "https://unsplash.com/@caleb_woods",
+                    "author": "Caleb Woods"
+                  },
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1685161456723-be97b8214aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODM3NDd8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IsiGH",
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": "#F0EDE7",
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nE7YY",
+                      "fill": "#E0431A",
+                      "cornerRadius": 4,
+                      "padding": [
+                        4,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fpKQ7",
+                          "fill": "#FFFFFF",
+                          "content": "СВЕЖИЙ МАХ",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "v6hvIE",
+                      "fill": "#1A1A18",
+                      "content": "Тахианы мах",
+                      "fontFamily": "Manrope",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xibhF",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "J2DKn",
+              "metadata": {
+                "type": "unsplash",
+                "username": "homaappliances",
+                "link": "https://unsplash.com/@homaappliances",
+                "author": "Homa Appliances"
+              },
+              "width": "fill_container",
+              "height": 400,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1716194579314-4ddcc33412e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODM3NDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 8
+            },
+            {
+              "type": "frame",
+              "id": "BnP9J",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mYOTn",
+                  "fill": "#1D5C37",
+                  "content": "ҮЙЛДВЭРЛЭЛ",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "zHBv3",
+                  "fill": "#1A1A18",
+                  "content": "Аж үйлдвэрийн нарийн тооцоо",
+                  "fontFamily": "Manrope",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "tZPZF",
+                  "fill": "#3D3D38",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Бид үйлдвэрлэлийн бүх шатанд олон улсын стандартыг баримтладаг.",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N9VFF",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "OpBPA",
+              "fill": "#1D5C37",
+              "content": "ТУСТАЙ БАЙДАЛ",
+              "fontFamily": "Satoshi",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "FIvSO",
+              "fill": "#1A1A18",
+              "content": "Байгальд ээлтэй, ирээдүйд хариуцлагатай",
+              "fontFamily": "Manrope",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "X8VSq",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "m4eDeJ",
+                  "width": "fill_container",
+                  "height": 200,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "g6ZDl",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F4862A",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "MA7Fl",
+                      "fill": "#1A1A18",
+                      "content": "Хүнсний аюулгүй байдал",
+                      "fontFamily": "Manrope",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uJbfj",
+                      "fill": "#3D3D38",
+                      "content": "ISO, HACCP стандартад нийцсэн",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WDQKZ",
+                  "width": "fill_container",
+                  "height": 200,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QlgLF",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#2E8B4A",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "pFozE",
+                      "fill": "#1A1A18",
+                      "content": "Эко савлалт",
+                      "fontFamily": "Manrope",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dewVl",
+                      "fill": "#3D3D38",
+                      "content": "Дахин боловсруулах боломжтой",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xxv18",
+                  "width": "fill_container",
+                  "height": 200,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wZ1Fb",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#1D5C37",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "maRtf",
+                      "fill": "#1A1A18",
+                      "content": "Хариуцлагатай түүхий эд",
+                      "fontFamily": "Manrope",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iuWCl",
+                      "fill": "#3D3D38",
+                      "content": "Монголын малчдаас шууд",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wOtvA",
+          "width": "fill_container",
+          "fill": "#F8FAFD",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            100,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "q6FDi",
+              "fill": "#1A1A18",
+              "content": "Итгэлийг сонгох уу?",
+              "textAlign": "center",
+              "fontFamily": "Manrope",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "zMNj6",
+              "fill": "#3D3D38",
+              "content": "Бидэнтэй хамтран ажиллаж, дэлхийн зах зээлд хамтдаа гаръя",
+              "textAlign": "center",
+              "fontFamily": "Satoshi",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "s3qTo",
+          "width": "fill_container",
+          "height": 240,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#E5E7EB"
+          },
+          "gap": 48,
+          "padding": [
+            60,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "hacef",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i9R9t",
+                  "fill": "#1D5C37",
+                  "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+                  "fontFamily": "Manrope",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "WH5Mm",
+                  "fill": "#3D3D38",
+                  "content": "Монголын хүнсний боловсруулалтын тэргүүлэгч",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "IsoLs",
+      "x": 1400,
+      "y": 0,
+      "name": "Products Page",
+      "width": 1280,
+      "fill": "#F8F6F2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "U8UVN8",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "WuETA",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "GvoVi",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WXC6H",
+                  "fill": "#1A1A18",
+                  "content": "БҮТЭЭГДЭХҮҮН",
+                  "fontFamily": "Manrope",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "z1aTE",
+                  "fill": "#1A1A18",
+                  "content": "ТЕНДЕР",
+                  "fontFamily": "Manrope",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "OotDa",
+                  "fill": "#1A1A18",
+                  "content": "МЭДЭЭ",
+                  "fontFamily": "Manrope",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "ZbLh4",
+                  "fill": "#1A1A18",
+                  "content": "БИДНИЙ ТУХАЙ",
+                  "fontFamily": "Manrope",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "W6Fcf",
+                  "fill": "#1A1A18",
+                  "content": "ХОЛБОО",
+                  "fontFamily": "Manrope",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I8JdZ7",
+              "name": "Cart Icon",
+              "width": 40,
+              "height": 40,
+              "fill": "#F8FAFD",
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CIeGH",
+                  "content": "🛒",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "esAVi",
+          "width": "fill_container",
+          "height": 300,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            100,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gVhOd",
+              "fill": "#1D5C37",
+              "content": "БҮТЭЭГДЭХҮҮН",
+              "fontFamily": "Manrope",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "yRWi8",
+              "fill": "#1A1A18",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Манай бүтээгдэхүүнийг эндээс харна уу",
+              "textAlign": "center",
+              "fontFamily": "Manrope",
+              "fontSize": 48,
+              "fontWeight": "800"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cqd8l",
+          "width": "fill_container",
+          "fill": "#F8FAFD",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "GAPGA",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tVCpm",
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "J4q0X1",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "alegi__",
+                        "link": "https://unsplash.com/@alegi__",
+                        "author": "Alexandros Giannakakis"
+                      },
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1722928566022-8a6f179eab9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODQyODl8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mXCqA",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        16,
+                        0,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D38Imn",
+                          "fill": "#1A1A18",
+                          "content": "Үхрийн мах",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P2H6HG",
+                          "fill": "#3D3D38",
+                          "content": "Шинэхэн, чанартай үхрийн мах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NJzrc",
+                          "width": "fill_container",
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "i3vGUn",
+                              "fill": "#1D5C37",
+                              "content": "₮45,000 /кг",
+                              "fontFamily": "Manrope",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "nqfYG",
+                              "fill": "#1D5C37",
+                              "cornerRadius": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZpsRk",
+                                  "fill": "#FFFFFF",
+                                  "content": "Сагсанд нэмэх",
+                                  "fontFamily": "Satoshi",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oTlwG",
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JW6ql",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "soul1125",
+                        "link": "https://unsplash.com/@soul1125",
+                        "author": "Rich Soul"
+                      },
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1656570012974-f3a1a278c412?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODQyOTB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "chn8U",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        16,
+                        0,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gL5GV",
+                          "fill": "#1A1A18",
+                          "content": "Хонины мах",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sQC5r",
+                          "fill": "#3D3D38",
+                          "content": "Монголын уулын хонины мах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "m5Op6A",
+                          "width": "fill_container",
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rDXNy",
+                              "fill": "#1D5C37",
+                              "content": "₮52,000 /кг",
+                              "fontFamily": "Manrope",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RlAm1",
+                              "fill": "#1D5C37",
+                              "cornerRadius": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "kmeVi",
+                                  "fill": "#FFFFFF",
+                                  "content": "Сагсанд нэмэх",
+                                  "fontFamily": "Satoshi",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qTBr3",
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KJEJn",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "aminrmzni",
+                        "link": "https://unsplash.com/@aminrmzni",
+                        "author": "amin ramezani"
+                      },
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1670508183158-d1a3cbf5239a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODQyOTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K9xBs",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        16,
+                        0,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TpWDl",
+                          "fill": "#1A1A18",
+                          "content": "Тахианы мах",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PN2Jz",
+                          "fill": "#3D3D38",
+                          "content": "Антибиотикгүй тахианы мах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VhiHd",
+                          "width": "fill_container",
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Z8co3",
+                              "fill": "#1D5C37",
+                              "content": "₮28,000 /кг",
+                              "fontFamily": "Manrope",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Lgf5v",
+                              "fill": "#1D5C37",
+                              "cornerRadius": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "NpGcM",
+                                  "fill": "#FFFFFF",
+                                  "content": "Сагсанд нэмэх",
+                                  "fontFamily": "Satoshi",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XmNqg",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qzHKI",
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vgagv",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "studio754",
+                        "link": "https://unsplash.com/@studio754",
+                        "author": "Peter Bravo de los Rios"
+                      },
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1624384453081-d6cabc69cab9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODQzNTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pq5pK",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        16,
+                        0,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Tjfzt",
+                          "fill": "#1A1A18",
+                          "content": "Хагас боловсруулсан",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mdMEA",
+                          "fill": "#3D3D38",
+                          "content": "Хүндийн ажил хөнгөвчилсэн бүтээгдэхүүн",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j26p4",
+                          "width": "fill_container",
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "x68lAf",
+                              "fill": "#1D5C37",
+                              "content": "₮38,000 /кг",
+                              "fontFamily": "Manrope",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "s4WEy",
+                              "fill": "#1D5C37",
+                              "cornerRadius": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "u6hKEs",
+                                  "fill": "#FFFFFF",
+                                  "content": "Сагсанд нэмэх",
+                                  "fontFamily": "Satoshi",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W2NvS1",
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i7PqV",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "philippeb",
+                        "link": "https://unsplash.com/@philippeb",
+                        "author": "Philippe BONTEMPS"
+                      },
+                      "width": "fill_container",
+                      "height": 240,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1764250407849-0ced2114c66a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODQzNTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ssQ03",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        16,
+                        0,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lgzPl",
+                          "fill": "#1A1A18",
+                          "content": "Давсалсан мах",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MPS4L",
+                          "fill": "#3D3D38",
+                          "content": "Уламжлалт аргаар давсалсан мах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zXldj",
+                          "width": "fill_container",
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xRMtb",
+                              "fill": "#1D5C37",
+                              "content": "₮42,000 /кг",
+                              "fontFamily": "Manrope",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hcgGk",
+                              "fill": "#1D5C37",
+                              "cornerRadius": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "etzKq",
+                                  "fill": "#FFFFFF",
+                                  "content": "Сагсанд нэмэх",
+                                  "fontFamily": "Satoshi",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Xy9YI",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "schalter4",
+                    "link": "https://unsplash.com/@schalter4",
+                    "author": "Martin Schalter"
+                  },
+                  "width": "fill_container",
+                  "height": 380,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 12,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "faBBM",
+                      "width": "fill_container",
+                      "height": 280,
+                      "fill": "#F0EDE7",
+                      "cornerRadius": [
+                        8,
+                        8,
+                        0,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uUv0R",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        16,
+                        0,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OOBw9",
+                          "fill": "#1A1A18",
+                          "content": "Банш",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dzmz5",
+                          "fill": "#3D3D38",
+                          "content": "Гарын аргаар элсэх банш",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "A1tdN",
+                          "width": "fill_container",
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZvL1t",
+                              "fill": "#1D5C37",
+                              "content": "₮35,000 /кг",
+                              "fontFamily": "Manrope",
+                              "fontSize": 20,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lafLV",
+                              "fill": "#1D5C37",
+                              "cornerRadius": 8,
+                              "padding": [
+                                10,
+                                20
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "n6Y7k",
+                                  "fill": "#FFFFFF",
+                                  "content": "Сагсанд нэмэх",
+                                  "fontFamily": "Satoshi",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YJpaF",
+              "name": "Category Tabs",
+              "width": "fill_container",
+              "gap": 12,
+              "padding": [
+                0,
+                0,
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oLppM",
+                  "fill": "#1D5C37",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "olxmu",
+                      "fill": "#FFFFFF",
+                      "content": "Бүгд",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RKdsI",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t7valt",
+                      "fill": "#1A1A18",
+                      "content": "Свежий мах",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GXnwW",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qKtVu",
+                      "fill": "#1A1A18",
+                      "content": "Банш",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G3jcn0",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yJjTR",
+                      "fill": "#1A1A18",
+                      "content": "Хагас боловсруулсан",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LKCum",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N45QaN",
+                      "fill": "#1A1A18",
+                      "content": "Давсалсан мах",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tUeWK",
+          "width": "fill_container",
+          "height": 240,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#E5E7EB"
+          },
+          "gap": 48,
+          "padding": [
+            60,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "TzAzf",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 20,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "KZQi5",
+      "x": 2800,
+      "y": 0,
+      "name": "Tender & B2B Page",
+      "width": 1280,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "rOlTz",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "pd3gp",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 18,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hmqcX",
+          "width": "fill_container",
+          "height": 300,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            100,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "U2xFBL",
+              "fill": "#1D5C37",
+              "content": "ТЕНДЕР & B2B",
+              "fontFamily": "Manrope",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "z7B7n0",
+              "fill": "#1A1A18",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Томоохон худалдан авалтын шийдэл",
+              "textAlign": "center",
+              "fontFamily": "Manrope",
+              "fontSize": 48,
+              "fontWeight": "800"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "V4hZH",
+          "width": "fill_container",
+          "fill": "#F8FAFD",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "vs6jK",
+              "fill": "#1D5C37",
+              "content": "ҮЙЛЧЛҮҮЛЭГЧ САЛБАРУУД",
+              "fontFamily": "Manrope",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "KLUlp",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "r7z6Xl",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qwpli",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F4862A",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "CUvLF",
+                      "fill": "#1A1A18",
+                      "content": "Засгийн газар",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kwWy6",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HZlIF",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F4862A",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "TLGnp",
+                      "fill": "#1A1A18",
+                      "content": "Жижиглэнгийн худалдаа",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p5RNi4",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m9EHgQ",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F4862A",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "D57Ub",
+                      "fill": "#1A1A18",
+                      "content": "Зочид буудал",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m9SyH",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KBQy7",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F4862A",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "z5QiZl",
+                      "fill": "#1A1A18",
+                      "content": "Нисэх",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S4VSQu",
+                  "width": "fill_container",
+                  "height": 160,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K6YKM7",
+                      "width": 48,
+                      "height": 48,
+                      "fill": "#F4862A",
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "ls7Np",
+                      "fill": "#1A1A18",
+                      "content": "Дистрибьютер",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "V9Ginc",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "g7HjMz",
+              "fill": "#1D5C37",
+              "content": "БАТАЛГААЖУУЛАЛТ",
+              "fontFamily": "Manrope",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "G4HBI",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UnnlR",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "#C9C5BC"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yDu1j",
+                      "fill": "#1A1A18",
+                      "content": "ISO 22000",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o2VVH",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "#C9C5BC"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mROtd",
+                      "fill": "#1A1A18",
+                      "content": "HACCP",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Bfucm",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "#C9C5BC"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SuwAZ",
+                      "fill": "#1A1A18",
+                      "content": "Halal",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SzJ0E",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "#C9C5BC"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N3nMK",
+                      "fill": "#1A1A18",
+                      "content": "FDA",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "omLuY",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1.5,
+                    "fill": "#C9C5BC"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E2oeH",
+                      "fill": "#1A1A18",
+                      "content": "Organic",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HlNzT",
+          "width": "fill_container",
+          "height": 240,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#E5E7EB"
+          },
+          "gap": 48,
+          "padding": [
+            60,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Sgc3m",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 20,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jg6md",
+      "x": 4200,
+      "y": 0,
+      "name": "About Page",
+      "width": 1280,
+      "fill": "#F8F6F2",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Q1z5j",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "wXplA",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "PdyNM",
+              "name": "Cart Icon",
+              "width": 40,
+              "height": 40,
+              "fill": "#F8FAFD",
+              "cornerRadius": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CoMgx",
+                  "content": "🛒",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CfB9o",
+          "width": "fill_container",
+          "height": 300,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            80,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "z1VF14",
+              "fill": "#1D5C37",
+              "content": "БИДНИЙ ТУХАЙ",
+              "fontFamily": "Manrope",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Tve4Z",
+              "fill": "#1A1A18",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Монголын хүнсний боловсруулалтын тэргүүлэгч",
+              "textAlign": "center",
+              "fontFamily": "Manrope",
+              "fontSize": 48,
+              "fontWeight": "800"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QL0L9",
+          "width": "fill_container",
+          "fill": "#F8FAFD",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "W6zcq",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nSp8T",
+                  "fill": "#1D5C37",
+                  "content": "БИДНИЙ ТҮҮХ",
+                  "fontFamily": "Manrope",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "PEXAp",
+                  "fill": "#1A1A18",
+                  "content": "1998 онд байгуулагдсан",
+                  "fontFamily": "Manrope",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "K5Cmr4",
+                  "fill": "#3D3D38",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Арцат Алтайн Уулс ХХК нь Монголын хүнсний боловсруулах үйлдвэрлэлийн салбарт 25 гаруй жилийн туршлагатай. Бид чанар, аюулгүй байдал, амтыг эрхэмлэдэг.",
+                  "fontFamily": "Manrope",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Uw3ur",
+              "width": "fill_container",
+              "height": 300,
+              "fill": "#F0EDE7",
+              "cornerRadius": 8
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SX0Wr",
+          "width": "fill_container",
+          "fill": "#F0EDE7",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "IGVWt",
+              "fill": "#1D5C37",
+              "content": "БИДНИЙ ҮНЭТ ЗҮЙЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "z2nME",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "r8dlL",
+                  "width": "fill_container",
+                  "height": 180,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GYhAZ",
+                      "fill": "#1D5C37",
+                      "content": "ЧАНАР",
+                      "fontFamily": "Manrope",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E3p2uX",
+                      "fill": "#3D3D38",
+                      "content": "Хамгийн өндөр стандарт",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fbH9R",
+                  "width": "fill_container",
+                  "height": 180,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yh25x",
+                      "fill": "#1D5C37",
+                      "content": "ИТГЭЛ",
+                      "fontFamily": "Manrope",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G4HrrU",
+                      "fill": "#3D3D38",
+                      "content": "Харилцагчиддаа үнэнч",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GnYZr",
+                  "width": "fill_container",
+                  "height": 180,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KZzga",
+                      "fill": "#1D5C37",
+                      "content": "ХАРИУЦЛАГА",
+                      "fontFamily": "Manrope",
+                      "fontSize": 24,
+                      "fontWeight": "800"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W5Uhx",
+                      "fill": "#3D3D38",
+                      "content": "Байгальд ээлтэй",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AXHZ0",
+          "width": "fill_container",
+          "height": 240,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#E5E7EB"
+          },
+          "gap": 48,
+          "padding": [
+            60,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "MkkMB",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 20,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "osgLl",
+      "x": 5600,
+      "y": 0,
+      "name": "Contact Page",
+      "width": 1280,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "orxiD",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "U4KE1",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 18,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LkQ21",
+          "width": "fill_container",
+          "height": 300,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            100,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ctYTW",
+              "fill": "#1D5C37",
+              "content": "ХОЛБОО БАРИХ",
+              "fontFamily": "Manrope",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "J1cJQ",
+              "fill": "#1A1A18",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Бидэнтэй холбогдох",
+              "textAlign": "center",
+              "fontFamily": "Manrope",
+              "fontSize": 48,
+              "fontWeight": "800"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vlQ3c",
+          "width": "fill_container",
+          "fill": "#F8FAFD",
+          "gap": 48,
+          "padding": [
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LLwtb",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qjRl8",
+                  "fill": "#1A1A18",
+                  "content": "Мессеж илгээх",
+                  "fontFamily": "Manrope",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "hNk1M",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#F8F6F2",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#C9C5BC"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "H6AxwW",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#F8F6F2",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#C9C5BC"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "FJqOj",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#F8F6F2",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#C9C5BC"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "f6mZUY",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#F8F6F2",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#C9C5BC"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "e3mqo",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#F8F6F2",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#C9C5BC"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "K9SnO2",
+                  "fill": "#1D5C37",
+                  "cornerRadius": 4,
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tYz2g",
+                      "fill": "#FFFFFF",
+                      "content": "ИЛГЭЭХ",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cB0mG",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GRfmY",
+                  "fill": "#1A1A18",
+                  "content": "ХОЛБОО БАРИХ",
+                  "fontFamily": "Manrope",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "aZO5k",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YHMa5",
+                      "fill": "#1D5C37",
+                      "content": "Хаяг",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o7vFE",
+                      "fill": "#3D3D38",
+                      "content": "Улаанбаатар хот, Баянзүрх дүүрэг",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qyNyk",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q40U9",
+                      "fill": "#1D5C37",
+                      "content": "Утас",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nMxjb",
+                      "fill": "#3D3D38",
+                      "content": "+976 11 11 1111",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Gzxcz",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "h0YJ6",
+                      "fill": "#1D5C37",
+                      "content": "Имэйл",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iwRk6",
+                      "fill": "#3D3D38",
+                      "content": "info@artzat.mn",
+                      "fontFamily": "Manrope",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U2G82",
+          "width": "fill_container",
+          "height": 240,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#E5E7EB"
+          },
+          "gap": 48,
+          "padding": [
+            60,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "iT9NY",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 20,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ZMd2X",
+      "x": 7000,
+      "y": 0,
+      "name": "Cart Page",
+      "width": 1280,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "lk9PK",
+          "width": "fill_container",
+          "height": 72,
+          "fill": "#FFFFFF",
+          "padding": [
+            0,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cOIcd",
+              "fill": "#1D5C37",
+              "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+              "fontFamily": "Manrope",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "fEjor",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y67GZS",
+                  "fill": "#1A1A18",
+                  "content": "БҮТЭЭГДЭХҮҮН",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "W8oP5",
+                  "fill": "#1A1A18",
+                  "content": "ТЕНДЕР",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "b9TvSg",
+                  "fill": "#1A1A18",
+                  "content": "МЭДЭЭ",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "z6US8Y",
+                  "fill": "#1A1A18",
+                  "content": "БИДНИЙ ТУХАЙ",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "kCSSf",
+                  "fill": "#1A1A18",
+                  "content": "ХОЛБОО",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G8zMi",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "WMla4",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "#1D5C37",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rT7NT",
+                      "content": "🛒",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SRwAa",
+                  "fill": "#1D5C37",
+                  "cornerRadius": 4,
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PH5V9",
+                      "fill": "#FFFFFF",
+                      "content": "ЛАВЛАХ",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FzRfb",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            80,
+            48,
+            60,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BFO7Q",
+              "fill": "#1D5C37",
+              "content": "ТАНЫ САГС",
+              "fontFamily": "Satoshi",
+              "fontSize": 12,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "oatt2",
+              "fill": "#1A1A18",
+              "content": "Сагсанд 4 бүтээгдэхүүн байна",
+              "textAlign": "center",
+              "fontFamily": "Manrope",
+              "fontSize": 40,
+              "fontWeight": "800"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JUEgf",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "gap": 48,
+          "padding": [
+            0,
+            48,
+            80,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "UAJNK",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hTU8Z",
+                  "width": "fill_container",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 12,
+                  "gap": 20,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h9ZtZa",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "edsonsrdz",
+                        "link": "https://unsplash.com/@edsonsrdz",
+                        "author": "Edson Saldaña"
+                      },
+                      "width": 100,
+                      "height": 100,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1588347785102-2944ba63d0c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODUxNDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NfOIi",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kCXLb",
+                          "fill": "#1A1A18",
+                          "content": "Үхрийн мах",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SqAuJ",
+                          "fill": "#3D3D38",
+                          "content": "Шинэхэн, чанартай",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ldeEY",
+                          "fill": "#1D5C37",
+                          "content": "₮45,000 /кг",
+                          "fontFamily": "Manrope",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VWgus",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "w6xCi2",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "GXka6",
+                              "fill": "#1A1A18",
+                              "content": "−",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ybSAs",
+                          "width": 40,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "cFVsX",
+                              "fill": "#1A1A18",
+                              "content": "2",
+                              "fontFamily": "Manrope",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UksVL",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "G3w4O8",
+                              "fill": "#1A1A18",
+                              "content": "+",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hr0Jy",
+                      "width": 120,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ODmTT",
+                          "fill": "#1A1A18",
+                          "content": "₮90,000",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qbTkr",
+                          "fill": "#E0431A",
+                          "content": "Устгах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uq4lP",
+                  "width": "fill_container",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 12,
+                  "gap": 20,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "g96uK",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "diegoarenasderodrigo",
+                        "link": "https://unsplash.com/@diegoarenasderodrigo",
+                        "author": "Diego Arenas de Rodrigo"
+                      },
+                      "width": 100,
+                      "height": 100,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1766589152317-fd811dd44c65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODUxNDZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G7lAj7",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j3hgwg",
+                          "fill": "#1A1A18",
+                          "content": "Хонины мах",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qOuNq",
+                          "fill": "#3D3D38",
+                          "content": "Монголын уулын хонь",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MLqfu",
+                          "fill": "#1D5C37",
+                          "content": "₮52,000 /кг",
+                          "fontFamily": "Manrope",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TC4D2",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "PFY1U",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "UrKJP",
+                              "fill": "#1A1A18",
+                              "content": "−",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "S9k2zl",
+                          "width": 40,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gIrkE",
+                              "fill": "#1A1A18",
+                              "content": "1",
+                              "fontFamily": "Manrope",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IzzqO",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "PvkJe",
+                              "fill": "#1A1A18",
+                              "content": "+",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fUMRK",
+                      "width": 120,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "v6S5N",
+                          "fill": "#1A1A18",
+                          "content": "₮52,000",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pl3xE",
+                          "fill": "#E0431A",
+                          "content": "Устгах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KuBxY",
+                  "width": "fill_container",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 12,
+                  "gap": 20,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KFnUH",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "ahmad_redai_hashmi",
+                        "link": "https://unsplash.com/@ahmad_redai_hashmi",
+                        "author": "Ahmad Redai Hashmi"
+                      },
+                      "width": 100,
+                      "height": 100,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1694004601053-41926bf4a38a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODUxNDd8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "efgQm",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AgZDs",
+                          "fill": "#1A1A18",
+                          "content": "Банш",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "en5Wa",
+                          "fill": "#3D3D38",
+                          "content": "Гарын аргаар элсэх",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Gzq5P",
+                          "fill": "#1D5C37",
+                          "content": "₮35,000 /кг",
+                          "fontFamily": "Manrope",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y5xDPA",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "jJz5k",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jAN5a",
+                              "fill": "#1A1A18",
+                              "content": "−",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "M9EwX",
+                          "width": 40,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "n5juvr",
+                              "fill": "#1A1A18",
+                              "content": "3",
+                              "fontFamily": "Manrope",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "T2y9v",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mzqz6",
+                              "fill": "#1A1A18",
+                              "content": "+",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eFLms",
+                      "width": 120,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Yk2pn",
+                          "fill": "#1A1A18",
+                          "content": "₮105,000",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "w908mI",
+                          "fill": "#E0431A",
+                          "content": "Устгах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DbnOU",
+                  "width": "fill_container",
+                  "fill": "#F8FAFD",
+                  "cornerRadius": 12,
+                  "gap": 20,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DGGEd",
+                      "metadata": {
+                        "type": "unsplash",
+                        "username": "gennady107",
+                        "link": "https://unsplash.com/@gennady107",
+                        "author": "Gennady Zakharin"
+                      },
+                      "width": 100,
+                      "height": 100,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1776666580212-07d0e7e474b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzk4ODUxNDh8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      },
+                      "cornerRadius": 8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "h9joxf",
+                      "width": 300,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "riHsx",
+                          "fill": "#1A1A18",
+                          "content": "Давсалсан мах",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "h0H98",
+                          "fill": "#3D3D38",
+                          "content": "Уламжлалт аргаар",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dBbWw",
+                          "fill": "#1D5C37",
+                          "content": "₮42,000 /кг",
+                          "fontFamily": "Manrope",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xn3DZ",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#E5E7EB"
+                      },
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MVyi0",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tBpMb",
+                              "fill": "#1A1A18",
+                              "content": "−",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N4uie6",
+                          "width": 40,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vuz4O",
+                              "fill": "#1A1A18",
+                              "content": "1",
+                              "fontFamily": "Manrope",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "w7baYq",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Q9M4bg",
+                              "fill": "#1A1A18",
+                              "content": "+",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GWQxb",
+                      "width": 120,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f85Ki",
+                          "fill": "#1A1A18",
+                          "content": "₮42,000",
+                          "fontFamily": "Manrope",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lxWnS",
+                          "fill": "#E0431A",
+                          "content": "Устгах",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YEhdg",
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "W06ZY",
+                      "fill": "#1D5C37",
+                      "content": "←",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N4wW0V",
+                      "fill": "#1D5C37",
+                      "content": "Худалдан авалтаа үргэлжлүүлэх",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SGBv1",
+              "width": 368,
+              "fill": "#F8FAFD",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F5CUk",
+                  "fill": "#1A1A18",
+                  "content": "Захиалгын мэдээлэл",
+                  "fontFamily": "Manrope",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "oIHv0",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PxyoL",
+                      "fill": "#3D3D38",
+                      "content": "Бараа (7 ширхэг)",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bJGKV",
+                      "fill": "#1A1A18",
+                      "content": "₮289,000",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "I9xTx8",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ktZBC",
+                      "fill": "#3D3D38",
+                      "content": "Хүргэлт",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gFrrw",
+                      "fill": "#1A1A18",
+                      "content": "₮15,000",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IRsgj",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "top": 1
+                    },
+                    "fill": "#E5E7EB"
+                  },
+                  "padding": [
+                    16,
+                    0
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lbK6F",
+                      "fill": "#1A1A18",
+                      "content": "Нийт дүн",
+                      "fontFamily": "Manrope",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M2Bi6",
+                      "fill": "#1D5C37",
+                      "content": "₮304,000",
+                      "fontFamily": "Manrope",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W254x",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "aQg5E",
+                      "fill": "#1D5C37",
+                      "cornerRadius": 8,
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tiits",
+                          "fill": "#FFFFFF",
+                          "content": "ТӨЛБӨР ТООЦОО ХИЙХ",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SL0AS",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#1D5C37"
+                      },
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "X9VPqD",
+                          "fill": "#1D5C37",
+                          "content": "QPay-ээр төлөх",
+                          "fontFamily": "Satoshi",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L7k9QO",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uMcXa",
+                      "fill": "#1A1A18",
+                      "content": "Хүргэлтийн мэдээлэл",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NBWTc",
+                      "fill": "#3D3D38",
+                      "content": "Улаанбаатар хот: 24 цагийн дотор",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NNUOI",
+                      "fill": "#3D3D38",
+                      "content": "Орон нутаг: 2-3 хоног",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QAUUZ",
+          "width": "fill_container",
+          "height": 240,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "top": 1
+            },
+            "fill": "#E5E7EB"
+          },
+          "padding": [
+            60,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "T5zjN4",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hESy0",
+                  "fill": "#1D5C37",
+                  "content": "▲ ▲ ▲ АРЦАТ АЛТАЙН УУЛС",
+                  "fontFamily": "Manrope",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "d5rgP",
+                  "fill": "#3D3D38",
+                  "content": "Монголын уугуул түүхий эдээс эхэлсэн",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "U7bfcQ",
+                  "fill": "#C9C5BC",
+                  "content": "© 2024 Арцат Алтайн Уулс ХХК. Бүх эрх хуулиар хамгаалагдсан.",
+                  "fontFamily": "Satoshi",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TaThv",
+              "gap": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xJUbN",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KC8DB",
+                      "fill": "#1A1A18",
+                      "content": "Цэс",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "m3KJNL",
+                      "fill": "#3D3D38",
+                      "content": "Бүтээгдэхүүн",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LS6X1",
+                      "fill": "#3D3D38",
+                      "content": "Тендер",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d9iLb",
+                      "fill": "#3D3D38",
+                      "content": "Мэдээ",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y8m4Th",
+                      "fill": "#3D3D38",
+                      "content": "Бидний тухай",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yjYKv",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EzVje",
+                      "fill": "#1A1A18",
+                      "content": "Холбоо барих",
+                      "fontFamily": "Manrope",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YpUGI",
+                      "fill": "#3D3D38",
+                      "content": "info@artzat-altai.mn",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Sn8aM",
+                      "fill": "#3D3D38",
+                      "content": "+976 11 333 555",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w1X5Y",
+                      "fill": "#3D3D38",
+                      "content": "Улаанбаатар, Монгол",
+                      "fontFamily": "Satoshi",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

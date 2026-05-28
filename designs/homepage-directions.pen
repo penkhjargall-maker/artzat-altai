@@ -1,0 +1,278 @@
+{"version":"2.11","children":[
+  {"type":"frame","id":"corp-red","name":"Option A - Corporate Red","layout":"vertical","width":1440,"height":"fit_content","x":0,"y":0,"padding":0,"gap":0,"fill":"#FFFFFF","placeholder":true,
+    "children":[
+      {"type":"frame","id":"header-red","name":"Header","layout":"horizontal","width":"fill_container","height":80,"padding":[0,60],"alignItems":"center","justifyContent":"space_between","fill":"#8B0000",
+        "children":[
+          {"type":"text","id":"logo-red","content":"АРЦАТ АЛТАЙН УУЛС","fontFamily":"Inter","fontSize":22,"fontWeight":"700","fill":"#FFFFFF"},
+          {"type":"frame","id":"nav-red","layout":"horizontal","gap":32,"width":"fit_content","height":"fit_content",
+            "children":[
+              {"type":"text","content":"Нүүр","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Бүтээгдэхүүн","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Мэдээ","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Бидний тухай","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Холбоо барих","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"}
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"hero-red","name":"Hero","layout":"vertical","width":"fill_container","height":600,"padding":[120,60],"gap":24,"fill":"#8B0000",
+        "children":[
+          {"type":"text","content":"Монголын махны үйлдвэрлэлийн тэргүүлэгч","fontFamily":"Inter","fontSize":52,"fontWeight":"700","fill":"#FFFFFF","textGrowth":"fixed-width","width":700},
+          {"type":"text","content":"Арцат Алтайн Уулс ХХК - чанар, аюулгүй байдал, амт","fontFamily":"Inter","fontSize":20,"fill":"#FFE4E1","textGrowth":"fixed-width","width":600},
+          {"type":"frame","id":"cta-red","layout":"horizontal","width":"fit_content","height":"fit_content","padding":[16,32],"gap":8,"fill":"#FFFFFF","cornerRadius":4,
+            "children":[
+              {"type":"text","content":"Бүтээгдэхүүн харах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#8B0000"}
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"cats-red","name":"Categories","layout":"vertical","width":"fill_container","height":"fit_content","padding":[80,60],"gap":40,
+        "children":[
+          {"type":"text","content":"Бүтээгдэхүүний ангилал","fontFamily":"Inter","fontSize":32,"fontWeight":"700","fill":"#1A1A1A"},
+          {"type":"frame","id":"catgrid-red","layout":"horizontal","width":"fill_container","height":"fit_content","gap":24,
+            "children":[
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFF5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Свежий мах","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFF5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Хагас боловсруулсан","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFF5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Банш","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFF5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Давсалсан мах","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              }
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"products-red","name":"Products","layout":"vertical","width":"fill_container","height":"fit_content","padding":[80,60],"gap":40,"fill":"#FAFAFA",
+        "children":[
+          {"type":"text","content":"Онцлох бүтээгдэхүүн","fontFamily":"Inter","fontSize":32,"fontWeight":"700","fill":"#1A1A1A"},
+          {"type":"frame","id":"prodgrid-red","layout":"horizontal","width":"fill_container","height":"fit_content","gap":24,
+            "children":[
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#FFE4E1","cornerRadius":4},
+                  {"type":"text","content":"Үхрийн мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"25,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#8B0000"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#FFE4E1","cornerRadius":4},
+                  {"type":"text","content":"Хонины мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"28,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#8B0000"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#FFE4E1","cornerRadius":4},
+                  {"type":"text","content":"Тахианы мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"15,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#8B0000"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#FFE4E1","cornerRadius":4},
+                  {"type":"text","content":"Банш","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"18,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#8B0000"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"footer-red","name":"Footer","layout":"horizontal","width":"fill_container","height":200,"padding":[60,60],"gap":40,"fill":"#1A1A1A",
+        "children":[
+          {"type":"text","content":"АРЦАТ АЛТАЙН УУЛС","fontFamily":"Inter","fontSize":20,"fontWeight":"700","fill":"#FFFFFF"}
+        ]
+      }
+    ]
+  },
+  {"type":"frame","id":"industrial-dark","name":"Option B - Industrial Dark","layout":"vertical","width":1440,"height":"fit_content","x":1500,"y":0,"padding":0,"gap":0,"fill":"#FFFFFF","placeholder":true,
+    "children":[
+      {"type":"frame","id":"header-dark","name":"Header","layout":"horizontal","width":"fill_container","height":80,"padding":[0,60],"alignItems":"center","justifyContent":"space_between","fill":"#2D2D2D",
+        "children":[
+          {"type":"text","id":"logo-dark","content":"АРЦАТ АЛТАЙН УУЛС","fontFamily":"Inter","fontSize":22,"fontWeight":"700","fill":"#FFFFFF"},
+          {"type":"frame","id":"nav-dark","layout":"horizontal","gap":32,"width":"fit_content","height":"fit_content",
+            "children":[
+              {"type":"text","content":"Нүүр","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Бүтээгдэхүүн","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Мэдээ","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Бидний тухай","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"},
+              {"type":"text","content":"Холбоо барих","fontFamily":"Inter","fontSize":14,"fill":"#FFFFFF"}
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"hero-dark","name":"Hero","layout":"vertical","width":"fill_container","height":600,"padding":[120,60],"gap":24,"fill":"#1A1A1A",
+        "children":[
+          {"type":"text","content":"Монголын махны үйлдвэрлэлийн тэргүүлэгч","fontFamily":"Inter","fontSize":52,"fontWeight":"700","fill":"#FFFFFF","textGrowth":"fixed-width","width":700},
+          {"type":"text","content":"Арцат Алтайн Уулс ХХК - чанар, аюулгүй байдал, амт","fontFamily":"Inter","fontSize":20,"fill":"#B0B0B0","textGrowth":"fixed-width","width":600},
+          {"type":"frame","id":"cta-dark","layout":"horizontal","width":"fit_content","height":"fit_content","padding":[16,32],"gap":8,"fill":"#C41E3A","cornerRadius":4,
+            "children":[
+              {"type":"text","content":"Бүтээгдэхүүн харах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#FFFFFF"}
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"cats-dark","name":"Categories","layout":"vertical","width":"fill_container","height":"fit_content","padding":[80,60],"gap":40,
+        "children":[
+          {"type":"text","content":"Бүтээгдэхүүний ангилал","fontFamily":"Inter","fontSize":32,"fontWeight":"700","fill":"#1A1A1A"},
+          {"type":"frame","id":"catgrid-dark","layout":"horizontal","width":"fill_container","height":"fit_content","gap":24,
+            "children":[
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#F5F5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Свежий мах","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#F5F5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Хагас боловсруулсан","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#F5F5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Банш","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#F5F5F5","cornerRadius":8,
+                "children":[{"type":"text","content":"Давсалсан мах","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              }
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"products-dark","name":"Products","layout":"vertical","width":"fill_container","height":"fit_content","padding":[80,60],"gap":40,"fill":"#FAFAFA",
+        "children":[
+          {"type":"text","content":"Онцлох бүтээгдэхүүн","fontFamily":"Inter","fontSize":32,"fontWeight":"700","fill":"#1A1A1A"},
+          {"type":"frame","id":"prodgrid-dark","layout":"horizontal","width":"fill_container","height":"fit_content","gap":24,
+            "children":[
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#E8E8E8","cornerRadius":4},
+                  {"type":"text","content":"Үхрийн мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"25,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#E8E8E8","cornerRadius":4},
+                  {"type":"text","content":"Хонины мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"28,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#E8E8E8","cornerRadius":4},
+                  {"type":"text","content":"Тахианы мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"15,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#E8E8E8","cornerRadius":4},
+                  {"type":"text","content":"Банш","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"18,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"footer-dark","name":"Footer","layout":"horizontal","width":"fill_container","height":200,"padding":[60,60],"gap":40,"fill":"#2D2D2D",
+        "children":[
+          {"type":"text","content":"АРЦАТ АЛТАЙН УУЛС","fontFamily":"Inter","fontSize":20,"fontWeight":"700","fill":"#FFFFFF"}
+        ]
+      }
+    ]
+  },
+  {"type":"frame","id":"modern-clean","name":"Option C - Modern Clean","layout":"vertical","width":1440,"height":"fit_content","x":3000,"y":0,"padding":0,"gap":0,"fill":"#FFFFFF","placeholder":true,
+    "children":[
+      {"type":"frame","id":"header-clean","name":"Header","layout":"horizontal","width":"fill_container","height":80,"padding":[0,60],"alignItems":"center","justifyContent":"space_between","fill":"#FFFFFF","stroke":{"thickness":{"bottom":1},"fill":"#E5E7EB"},
+        "children":[
+          {"type":"text","id":"logo-clean","content":"АРЦАТ АЛТАЙН УУЛС","fontFamily":"Inter","fontSize":22,"fontWeight":"700","fill":"#1A1A1A"},
+          {"type":"frame","id":"nav-clean","layout":"horizontal","gap":32,"width":"fit_content","height":"fit_content",
+            "children":[
+              {"type":"text","content":"Нүүр","fontFamily":"Inter","fontSize":14,"fill":"#1A1A1A"},
+              {"type":"text","content":"Бүтээгдэхүүн","fontFamily":"Inter","fontSize":14,"fill":"#1A1A1A"},
+              {"type":"text","content":"Мэдээ","fontFamily":"Inter","fontSize":14,"fill":"#1A1A1A"},
+              {"type":"text","content":"Бидний тухай","fontFamily":"Inter","fontSize":14,"fill":"#1A1A1A"},
+              {"type":"text","content":"Холбоо барих","fontFamily":"Inter","fontSize":14,"fill":"#1A1A1A"}
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"hero-clean","name":"Hero","layout":"vertical","width":"fill_container","height":600,"padding":[120,60],"gap":24,"fill":"#FFFFFF",
+        "children":[
+          {"type":"text","content":"Монголын махны үйлдвэрлэлийн тэргүүлэгч","fontFamily":"Inter","fontSize":52,"fontWeight":"700","fill":"#1A1A1A","textGrowth":"fixed-width","width":700},
+          {"type":"text","content":"Арцат Алтайн Уулс ХХК - чанар, аюулгүй байдал, амт","fontFamily":"Inter","fontSize":20,"fill":"#4A4A4A","textGrowth":"fixed-width","width":600},
+          {"type":"frame","id":"cta-clean","layout":"horizontal","width":"fit_content","height":"fit_content","padding":[16,32],"gap":8,"fill":"#C41E3A","cornerRadius":4,
+            "children":[
+              {"type":"text","content":"Бүтээгдэхүүн харах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#FFFFFF"}
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"cats-clean","name":"Categories","layout":"vertical","width":"fill_container","height":"fit_content","padding":[80,60],"gap":40,"fill":"#FAFAFA",
+        "children":[
+          {"type":"text","content":"Бүтээгдэхүүний ангилал","fontFamily":"Inter","fontSize":32,"fontWeight":"700","fill":"#1A1A1A"},
+          {"type":"frame","id":"catgrid-clean","layout":"horizontal","width":"fill_container","height":"fit_content","gap":24,
+            "children":[
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[{"type":"text","content":"Свежий мах","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[{"type":"text","content":"Хагас боловсруулсан","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[{"type":"text","content":"Банш","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":200,"padding":24,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[{"type":"text","content":"Давсалсан мах","fontFamily":"Inter","fontSize":18,"fontWeight":"600","fill":"#1A1A1A"}]
+              }
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"products-clean","name":"Products","layout":"vertical","width":"fill_container","height":"fit_content","padding":[80,60],"gap":40,
+        "children":[
+          {"type":"text","content":"Онцлох бүтээгдэхүүн","fontFamily":"Inter","fontSize":32,"fontWeight":"700","fill":"#1A1A1A"},
+          {"type":"frame","id":"prodgrid-clean","layout":"horizontal","width":"fill_container","height":"fit_content","gap":24,
+            "children":[
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#F5F5F5","cornerRadius":4},
+                  {"type":"text","content":"Үхрийн мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"25,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#F5F5F5","cornerRadius":4},
+                  {"type":"text","content":"Хонины мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"28,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#F5F5F5","cornerRadius":4},
+                  {"type":"text","content":"Тахианы мах","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"15,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              },
+              {"type":"frame","layout":"vertical","width":"fill_container","height":320,"padding":16,"gap":12,"fill":"#FFFFFF","cornerRadius":8,"stroke":{"thickness":1,"fill":"#E5E7EB"},
+                "children":[
+                  {"type":"frame","width":"fill_container","height":180,"fill":"#F5F5F5","cornerRadius":4},
+                  {"type":"text","content":"Банш","fontFamily":"Inter","fontSize":16,"fontWeight":"600","fill":"#1A1A1A"},
+                  {"type":"text","content":"18,000₮","fontFamily":"Inter","fontSize":18,"fontWeight":"700","fill":"#C41E3A"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {"type":"frame","id":"footer-clean","name":"Footer","layout":"horizontal","width":"fill_container","height":200,"padding":[60,60],"gap":40,"fill":"#1A1A1A",
+        "children":[
+          {"type":"text","content":"АРЦАТ АЛТАЙН УУЛС","fontFamily":"Inter","fontSize":20,"fontWeight":"700","fill":"#FFFFFF"}
+        ]
+      }
+    ]
+  }
+]}

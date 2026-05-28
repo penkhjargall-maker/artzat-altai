@@ -1,0 +1,52 @@
+[
+  {
+    "section": "home",
+    "name": "Нүүр",
+    "slug": "home",
+    "description": "Нүүр хуудас",
+    "content": "<h1>Арцат Алтайн Уулс</h1><p>Монголын уугуул түүхий эдээс эхэлсэн. Чанар, аюулгүй байдал, амтыг эрхэмлэдэг.</p>",
+    "translations": [
+      { "language": "en", "title": "Home", "content": "<h1>Artzat Altai Uuls</h1><p>Starting from Mongolian raw materials. We value quality, safety, and taste.</p>" }
+    ]
+  },
+  {
+    "section": "about",
+    "name": "Бидний тухай",
+    "slug": "about",
+    "description": "Бидний тухай хуудас",
+    "content": "<h1>Бидний тухай</h1><p>Арцат Алтайн Уулс ХХК нь Монголын хүнсний боловсруулах үйлдвэрлэлийн салбарт 25 гаруй жилийн туршлагатай.</p>",
+    "translations": [
+      { "language": "en", "title": "About Us", "content": "<h1>About Us</h1><p>Artzat Altai Uuls LLC has over 25 years of experience in Mongolia's food processing industry.</p>" }
+    ]
+  },
+  {
+    "section": "contact",
+    "name": "Холбоо барих",
+    "slug": "contact",
+    "description": "Холбоо барих хуудас",
+    "content": "<h1>Холбоо барих</h1><p>Бидэнтэй холбогдох мэдээлэл.</p>",
+    "translations": [
+      { "language": "en", "title": "Contact", "content": "<h1>Contact Us</h1><p>Get in touch with us.</p>" }
+    ]
+  },
+  {
+    "section": "products",
+    "name": "Бүтээгдэхүүн",
+    "slug": "products",
+    "description": "Бүтээгдэхүүний жагсаалт",
+    "content": "<h1>Бүтээгдэхүүн</h1><p>Манай бүтээгдэхүүний жагсаалт.</p>",
+    "translations": [
+      { "language": "en", "title": "Products", "content": "<h1>Products</h1><p>Our product catalog.</p>" }
+    ]
+  },
+  {
+    "section": "tender",
+    "name": "Тендер & B2B",
+    "slug": "tender",
+    "description": "Тендер болон B2B хуудас",
+    "content": "<h1>Тендер & B2B</h1><p>Төрийн байгууллагын хүнсний хангамжийн хамгийн найдвартай хөрөнгө оруулагч.</p>",
+    "translations": [
+      { "language": "en", "title": "Tender & B2B", "content": "<h1>Tender & B2B</h1><p>The most reliable supplier for government food procurement.</p>" }
+    ]
+  }
+]

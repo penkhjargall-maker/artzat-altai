@@ -1,0 +1,11 @@
+[
+  { "label": "Нүүр", "url": "/", "order": 1, "kind": "header", "translations": [{ "language": "en", "title": "Home" }] },
+  { "label": "Бүтээгдэхүүн", "url": "/products", "order": 2, "kind": "header", "translations": [{ "language": "en", "title": "Products" }] },
+  { "label": "Тендер", "url": "/tender", "order": 3, "kind": "header", "translations": [{ "language": "en", "title": "Tender" }] },
+  { "label": "Бидний тухай", "url": "/about", "order": 4, "kind": "header", "translations": [{ "language": "en", "title": "About" }] },
+  { "label": "Холбоо барих", "url": "/contact", "order": 5, "kind": "header", "translations": [{ "language": "en", "title": "Contact" }] },
+  { "label": "Нүүр", "url": "/", "order": 1, "kind": "footer", "translations": [{ "language": "en", "title": "Home" }] },
+  { "label": "Бүтээгдэхүүн", "url": "/products", "order": 2, "kind": "footer", "translations": [{ "language": "en", "title": "Products" }] },
+  { "label": "Бидний тухай", "url": "/about", "order": 3, "kind": "footer", "translations": [{ "language": "en", "title": "About" }] },
+  { "label": "Холбоо барих", "url": "/contact", "order": 4, "kind": "footer", "translations": [{ "language": "en", "title": "Contact" }] }
+]

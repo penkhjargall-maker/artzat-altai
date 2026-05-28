@@ -1,0 +1,29 @@
+{
+  "motion_level": 2,
+  "visual_direction": "premium-mongolian-food",
+  "packages": [
+    "framer-motion",
+    "lucide-react",
+    "next-themes"
+  ],
+  "shadcn_components": [],
+  "custom_components": [
+    "Header",
+    "Footer",
+    "ProductCard",
+    "NewsCard",
+    "CertificationBadge",
+    "StatCounter",
+    "ContactForm",
+    "FloatingInquiryButton"
+  ],
+  "animation_config": {
+    "core_library": "framer-motion",
+    "scroll_library": "none",
+    "text_animation": "none",
+    "page_transition": "framer",
+    "ambient_system": "css",
+    "micro_interactions": "framer-motion",
+    "gsap_plugins": []
+  }
+}

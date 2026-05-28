@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "siteName": "artzat-altai",
+    "visualDirection": "premium-mongolian-food",
+    "motionLevel": 2,
+    "defaultLocale": "mn",
+    "locales": ["mn", "en"]
+  },
+  "colors": {
+    "brand": {
+      "forestGreen": "#1D5C37",
+      "altaiOrange": "#F4862A",
+      "summitRed": "#E0431A",
+      "peakGreen": "#2E8B4A"
+    },
+    "neutral": {
+      "deepEarth": "#1A1A18",
+      "charcoal": "#3D3D38",
+      "stone": "#C9C5BC",
+      "offWhite": "#F8F6F2",
+      "parchment": "#F0EDE7",
+      "warmWhite": "#FFFFFF"
+    },
+    "stripeInspired": {
+      "platinumWhite": "#FFFFFF",
+      "porcelainWhite": "#F8FAFD",
+      "powderBlue": "#E5EDF5",
+      "midnightInk": "#1A1A18",
+      "slateBlue": "#3D3D38"
+    }
+  },
+  "typography": {
+    "families": {
+      "display": "Manrope",
+      "body": "Satoshi"
+    },
+    "scale": {
+      "caption": "11px",
+      "label": "12px",
+      "bodySm": "14px",
+      "body": "16px",
+      "bodyLg": "18px",
+      "subheading": "20px",
+      "headingSm": "28px",
+      "heading": "40px",
+      "headingLg": "48px",
+      "display": "56px",
+      "displayXl": "7vw"
+    }
+  },
+  "spacing": {
+    "unit": 8,
+    "scale": {
+      "4": "4px",
+      "8": "8px",
+      "12": "12px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "48": "48px",
+      "64": "64px",
+      "80": "80px",
+      "96": "96px",
+      "120": "120px",
+      "160": "160px"
+    }
+  },
+  "radius": {
+    "tags": "4px",
+    "buttons": "8px",
+    "inputs": "6px",
+    "cards": "12px",
+    "images": "8px",
+    "pill": "999px"
+  },
+  "shadows": {
+    "sm": "rgba(26, 26, 24, 0.06) 0px 2px 8px 0px",
+    "md": "rgba(26, 26, 24, 0.08) 0px 4px 16px 0px",
+    "lg": "rgba(26, 26, 24, 0.10) 0px 8px 32px 0px",
+    "cardHover": "rgba(29, 92, 55, 0.12) 0px 16px 40px 0px",
+    "orangeGlow": "rgba(244, 134, 42, 0.45) 0px 4px 20px 0px"
+  },
+  "ecommerce": {
+    "currency": "MNT",
+    "currencySymbol": "₮",
+    "hasCart": true,
+    "hasGuestCheckout": false,
+    "hasDelivery": true,
+    "productCategories": ["Свежий мах", "Банш", "Хагас боловсруулсан", "Давсалсан мах"]
+  }
+}
