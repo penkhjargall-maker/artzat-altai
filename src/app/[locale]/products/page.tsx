@@ -58,8 +58,8 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
             <div className="flex items-center gap-4">
               <select className="px-4 py-2 rounded-lg border border-neutral-200 text-sm bg-white">
                 <option>Эрэмбэлэх</option>
-                <option>Үнэ: Бага -> Их</option>
-                <option>Үнэ: Их -> Бага</option>
+                <option>Үнэ: Бага - Их</option>
+                <option>Үнэ: Их - Бага</option>
                 <option>Шинээр нэмэгдсэн</option>
               </select>
 
