@@ -1,25 +1,37 @@
 import { notFound } from "next/navigation";
-import { graphqlRequest } from "@/lib/graphql-client";
-import {
-  GET_PAGES,
-  GET_PAGE_BY_SLUG,
-} from "@/lib/graphql/queries/cms";
+
+const staticPages = [
+  { slug: "home", locale: "mn" },
+  { slug: "about", locale: "mn" },
+  { slug: "contact", locale: "mn" },
+  { slug: "products", locale: "mn" },
+  { slug: "tender", locale: "mn" },
+  { slug: "home", locale: "en" },
+  { slug: "about", locale: "en" },
+  { slug: "contact", locale: "en" },
+  { slug: "products", locale: "en" },
+  { slug: "tender", locale: "en" },
+];
+
+const pageContent: Record<string, Record<string, { name: string; content: string }>> = {
+  mn: {
+    home: { name: "Нүүр", content: "<h1>Арцат Алтайн Уулс</h1><p>Монголын уугуул түүхий эдээс эхэлсэн.</p>" },
+    about: { name: "Бидний тухай", content: "<h1>Бидний тухай</h1><p>25 гаруй жилийн туршлагатай.</p>" },
+    contact: { name: "Холбоо барих", content: "<h1>Холбоо барих</h1><p>Бидэнтэй холбогдох.</p>" },
+    products: { name: "Бүтээгдэхүүн", content: "<h1>Бүтээгдэхүүн</h1><p>Манай бүтээгдэхүүний жагсаалт.</p>" },
+    tender: { name: "Тендер & B2B", content: "<h1>Тендер & B2B</h1><p>Төрийн байгууллагын хүнсний хангамж.</p>" },
+  },
+  en: {
+    home: { name: "Home", content: "<h1>Artzat Altai Uuls</h1><p>Starting from Mongolian raw materials.</p>" },
+    about: { name: "About Us", content: "<h1>About Us</h1><p>Over 25 years of experience.</p>" },
+    contact: { name: "Contact", content: "<h1>Contact Us</h1><p>Get in touch with us.</p>" },
+    products: { name: "Products", content: "<h1>Products</h1><p>Our product catalog.</p>" },
+    tender: { name: "Tender & B2B", content: "<h1>Tender & B2B</h1><p>Government food procurement.</p>" },
+  },
+};
 
 export async function generateStaticParams() {
-  const data = await graphqlRequest<{
-    cpPages: Array<{ slug: string }>;
-  }>(GET_PAGES, { language: "mn" });
-
-  const pages = data?.cpPages || [];
-
-  const params = [];
-  for (const locale of ["mn", "en"]) {
-    for (const page of pages) {
-      params.push({ locale, slug: page.slug });
-    }
-  }
-
-  return params;
+  return staticPages;
 }
 
 export async function generateMetadata({
@@ -27,15 +39,10 @@ export async function generateMetadata({
 }: {
   params: { locale: string; slug: string };
 }) {
-  const data = await graphqlRequest<{
-    cpPage: { name: string; content: string } | null;
-  }>(GET_PAGE_BY_SLUG, { slug: params.slug, language: params.locale });
-
-  const page = data?.cpPage;
-
+  const content = pageContent[params.locale]?.[params.slug];
   return {
-    title: page?.name || params.slug,
-    description: page?.content?.slice(0, 160) || "",
+    title: content?.name || params.slug,
+    description: content?.content?.slice(0, 160) || "",
   };
 }
 
@@ -44,19 +51,9 @@ export default async function DynamicPage({
 }: {
   params: { locale: string; slug: string };
 }) {
-  const data = await graphqlRequest<{
-    cpPage: {
-      _id: string;
-      name: string;
-      slug: string;
-      content: string;
-      status: string;
-    } | null;
-  }>(GET_PAGE_BY_SLUG, { slug: params.slug, language: params.locale });
+  const content = pageContent[params.locale]?.[params.slug];
 
-  const page = data?.cpPage;
-
-  if (!page || page.status !== "published") {
+  if (!content) {
     notFound();
   }
 
@@ -64,11 +61,11 @@ export default async function DynamicPage({
     <div className="min-h-screen bg-white">
       <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-display font-bold text-neutral-deep mb-8">
-          {page.name}
+          {content.name}
         </h1>
         <div
           className="prose prose-lg max-w-none"
-          dangerouslySetInnerHTML={{ __html: page.content || "" }}
+          dangerouslySetInnerHTML={{ __html: content.content }}
         />
       </div>
     </div>

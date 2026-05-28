@@ -23,9 +23,13 @@ const posts = [
 ];
 
 export async function generateStaticParams() {
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  const params = [];
+  for (const locale of ["mn", "en"]) {
+    for (const post of posts) {
+      params.push({ locale, slug: post.slug });
+    }
+  }
+  return params;
 }
 
 export default function BlogPostPage({ params }: { params: { locale: string; slug: string } }) {

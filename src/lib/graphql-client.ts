@@ -10,25 +10,37 @@ export async function graphqlRequest<T = any>(
   query: string,
   variables?: Record<string, any>
 ): Promise<T> {
-  const response = await fetch(ERXES_API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "erxes-app-token": ERXES_APP_TOKEN,
-    },
-    body: JSON.stringify({ query, variables }),
-    next: { revalidate: 60 },
-  });
-
-  if (!response.ok) {
-    throw new Error(`GraphQL request failed: ${response.status} ${response.statusText}`);
+  if (!ERXES_API_URL) {
+    console.warn("ERXES_API_URL not configured");
+    return {} as T;
   }
 
-  const result: GraphQLResponse<T> = await response.json();
+  try {
+    const response = await fetch(ERXES_API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "erxes-app-token": ERXES_APP_TOKEN,
+      },
+      body: JSON.stringify({ query, variables }),
+      next: { revalidate: 60 },
+    });
 
-  if (result.errors) {
-    throw new Error(result.errors.map((e) => e.message).join(", "));
+    if (!response.ok) {
+      console.warn(`GraphQL request failed: ${response.status} ${response.statusText}`);
+      return {} as T;
+    }
+
+    const result: GraphQLResponse<T> = await response.json();
+
+    if (result.errors) {
+      console.warn("GraphQL errors:", result.errors);
+      return {} as T;
+    }
+
+    return result.data as T;
+  } catch (error) {
+    console.warn("GraphQL request error:", error);
+    return {} as T;
   }
-
-  return result.data as T;
 }
