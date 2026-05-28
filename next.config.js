@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  distDir: 'dist',
   images: {
-    domains: ['localhost'],
-  },
-  i18n: {
-    locales: ['mn', 'en'],
-    defaultLocale: 'mn',
+    unoptimized: true,
   },
 }
 
