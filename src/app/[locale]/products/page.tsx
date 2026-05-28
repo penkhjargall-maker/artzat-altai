@@ -16,7 +16,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
   const filteredProducts = products.filter((p) => {
     const matchesCategory = activeCategory === "Бүгд" || p.category === activeCategory;
     const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         p.description.toLowerCase().includes(searchQuery.toLowerCase());
+                         (p.description || "").toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
