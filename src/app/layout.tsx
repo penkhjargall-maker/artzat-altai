@@ -4,7 +4,7 @@ import { ApolloWrapper } from "@/lib/apollo-wrapper";
 
 export const metadata: Metadata = {
   title: "Арцат Алтайн Уулс - Монголын хүнсний боловсруулалт",
-  description: "Монголын уугуул түүхий эдээс эхэлсэн. Чанар, аюулгүй байдал, амтыг эрхэмлэдэг.",
+  description: "Монголын уугуул түүхий эдээс эхэлсэн. Чанар, аюулгүй байдал, амтыг эрхэмлэдэг. Premium Mongolian food processing.",
 };
 
 export default function RootLayout({
