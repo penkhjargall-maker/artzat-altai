@@ -161,7 +161,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
             <button className="w-10 h-10 rounded-lg border border-neutral-200 flex items-center justify-center text-neutral-stone hover:bg-neutral-offwhite">{'<'}</button>
             <button className="w-10 h-10 rounded-lg bg-brand-green text-white flex items-center justify-center">1</button>
             <button className="w-10 h-10 rounded-lg border border-neutral-200 flex items-center justify-center text-neutral-charcoal hover:bg-neutral-offwhite">2</button>
-            <button className="w-10 h-10 rounded-lg border border-neutral-200 flex items-center justify-center text-neutral-charcoal hover:bg-neutral-offwhite">></button>
+            <button className="w-10 h-10 rounded-lg border border-neutral-200 flex items-center justify-center text-neutral-charcoal hover:bg-neutral-offwhite">{'>'}</button>
           </div>
         </div>
       </section>
