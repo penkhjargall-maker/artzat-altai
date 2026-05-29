@@ -34,6 +34,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
             <h1 className="text-4xl lg:text-5xl font-display font-extrabold text-neutral-deep">
               Манай бүтээгдэхүүнийг эндээс харна уу
             </h1>
+            <p className="mt-2 text-sm text-red-500 font-bold">TEST: Product page updated v2</p>
             <p className="mt-4 text-lg text-neutral-charcoal">
               Шинэхэн • Чанартай • Монголын уулын мах
             </p>
