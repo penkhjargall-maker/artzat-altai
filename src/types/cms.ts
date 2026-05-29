@@ -44,7 +44,7 @@ export interface Product {
   readonly name: string;
   readonly nameEn?: string;
   readonly slug: string;
-  readonly description?: string;
+  readonly description: string;
   readonly descriptionEn?: string;
   readonly price: number;
   readonly unit: string;
