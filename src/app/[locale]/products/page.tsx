@@ -27,11 +27,11 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
 
   return (
     <div className="min-h-screen bg-[#F8FAFD]">
-      {/* Hero - 200px, white */}
-      <section className="bg-white py-16">
-        <div className="max-w-site mx-auto px-12 text-center">
+      {/* Hero */}
+      <section className="bg-white">
+        <div className="max-w-site mx-auto px-12 py-16 text-center">
           <FadeIn direction="up">
-            <h1 className="text-4xl lg:text-5xl font-display font-bold text-neutral-deep">
+            <h1 className="text-4xl lg:text-5xl font-display font-extrabold text-neutral-deep">
               Манай бүтээгдэхүүнийг эндээс харна уу
             </h1>
             <p className="mt-4 text-lg text-neutral-charcoal">
@@ -42,10 +42,9 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
       </section>
 
       {/* Filter Bar */}
-      <section className="bg-white border-b border-[#E5E7EB] py-4">
-        <div className="max-w-site mx-auto px-12">
+      <section className="bg-white border-b border-[#E5E7EB]">
+        <div className="max-w-site mx-auto px-12 py-4">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
-            {/* Categories */}
             <div className="flex flex-wrap gap-3">
               {categories.map((cat) => (
                 <button
@@ -62,7 +61,6 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
               ))}
             </div>
 
-            {/* Search & Sort & View Toggle */}
             <div className="flex items-center gap-3">
               <div className="relative">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-stone" />
@@ -173,7 +171,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                       className={`w-full mt-4 h-11 rounded-lg font-body font-semibold text-sm transition-colors ${
                         product.inStock
                           ? "bg-brand-green text-white hover:bg-brand-green/90"
-                          : "bg-neutral-200 text-neutral-stone cursor-not-allowed"
+                          : "bg-[#E5E7EB] text-neutral-stone cursor-not-allowed"
                       }`}
                     >
                       {product.inStock ? "Сагсанд нэмэх" : "Нөөцгүй"}
@@ -203,7 +201,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
         </div>
       </section>
 
-      {/* Trust Bar - green, rounded-12 container */}
+      {/* Trust Bar - rounded-12 container */}
       <section className="px-12 pb-12">
         <div className="max-w-site mx-auto">
           <div className="bg-brand-green rounded-xl py-6 px-12">
