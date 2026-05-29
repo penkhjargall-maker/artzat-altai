@@ -53,4 +53,5 @@ export interface Product {
   readonly inStock: boolean;
   readonly badge?: string;
   readonly minOrder?: string;
+  readonly sizes?: string[];
 }

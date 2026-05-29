@@ -29,12 +29,12 @@ export const mockFooterMenu: NavItem[] = [
 ];
 
 export const mockProducts: Product[] = [
-  { _id: "1", name: "Үхрийн мах", nameEn: "Beef", slug: "beef", description: "Шинэхэн, чанартай үхрийн мах", descriptionEn: "Fresh, quality beef", price: 45000, unit: "кг", category: "Свежий мах", inStock: true, badge: "Шинэхэн", minOrder: "50кг" },
-  { _id: "2", name: "Хонины мах", nameEn: "Mutton", slug: "mutton", description: "Монголын уулын хонины мах", descriptionEn: "Mongolian mountain lamb", price: 52000, unit: "кг", category: "Свежий мах", inStock: true, badge: "Бестселлер", minOrder: "50кг" },
-  { _id: "3", name: "Тахианы мах", nameEn: "Chicken", slug: "chicken", description: "Антибиотикгүй тахианы мах", descriptionEn: "Antibiotic-free chicken", price: 28000, unit: "кг", category: "Свежий мах", inStock: false, minOrder: "50кг" },
-  { _id: "4", name: "Хагас боловсруулсан", nameEn: "Semi-processed", slug: "semi-processed", description: "Хүндийн ажил хөнгөвчилсэн", descriptionEn: "Semi-processed meat", price: 38000, unit: "кг", category: "Хагас боловсруулсан", inStock: true, minOrder: "30кг" },
-  { _id: "5", name: "Давсалсан мах", nameEn: "Salted meat", slug: "salted-meat", description: "Уламжлалт аргаар давсалсан", descriptionEn: "Traditionally salted", price: 42000, unit: "кг", category: "Давсалсан мах", inStock: true, minOrder: "30кг" },
-  { _id: "6", name: "Банш", nameEn: "Dumplings", slug: "dumplings", description: "Гарын аргаар элсэх банш", descriptionEn: "Handmade dumplings", price: 35000, unit: "кг", category: "Банш", inStock: true, minOrder: "200ш" },
+  { _id: "1", name: "Үхрийн мах", nameEn: "Beef", slug: "beef", description: "Шинэхэн, чанартай үхрийн мах", descriptionEn: "Fresh, quality beef", price: 45000, unit: "кг", category: "Свежий мах", inStock: true, badge: "Шинэхэн", minOrder: "50кг", sizes: ["500г", "1кг", "5кг"] },
+  { _id: "2", name: "Хонины мах", nameEn: "Mutton", slug: "mutton", description: "Монголын уулын хонины мах", descriptionEn: "Mongolian mountain lamb", price: 52000, unit: "кг", category: "Свежий мах", inStock: true, badge: "Бестселлер", minOrder: "50кг", sizes: ["500г", "1кг", "5кг"] },
+  { _id: "3", name: "Тахианы мах", nameEn: "Chicken", slug: "chicken", description: "Антибиотикгүй тахианы мах", descriptionEn: "Antibiotic-free chicken", price: 28000, unit: "кг", category: "Свежий мах", inStock: false, minOrder: "50кг", sizes: ["500г", "1кг", "5кг"] },
+  { _id: "4", name: "Хагас боловсруулсан", nameEn: "Semi-processed", slug: "semi-processed", description: "Хүндийн ажил хөнгөвчилсэн", descriptionEn: "Semi-processed meat", price: 38000, unit: "кг", category: "Хагас боловсруулсан", inStock: true, minOrder: "30кг", sizes: ["500г", "1кг", "5кг"] },
+  { _id: "5", name: "Давсалсан мах", nameEn: "Salted meat", slug: "salted-meat", description: "Уламжлалт аргаар давсалсан", descriptionEn: "Traditionally salted", price: 42000, unit: "кг", category: "Давсалсан мах", inStock: true, minOrder: "30кг", sizes: ["500г", "1кг", "5кг"] },
+  { _id: "6", name: "Банш", nameEn: "Dumplings", slug: "dumplings", description: "Гарын аргаар элсэх банш", descriptionEn: "Handmade dumplings", price: 35000, unit: "кг", category: "Банш", inStock: true, minOrder: "200ш", sizes: ["20ш", "50ш", "100ш"] },
 ];
 
 export function getPages() {

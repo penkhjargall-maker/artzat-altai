@@ -11,6 +11,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
   const [activeCategory, setActiveCategory] = useState("Бүгд");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>({});
   const products = getProducts();
 
   const filteredProducts = products.filter((p) => {
@@ -19,6 +20,10 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                          (p.description || "").toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
+
+  const handleSizeSelect = (productId: string, size: string) => {
+    setSelectedSizes(prev => ({ ...prev, [productId]: size }));
+  };
 
   return (
     <div className="min-h-screen bg-[#F8FAFD]">
@@ -131,6 +136,25 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                     <h3 className="text-lg font-display font-bold text-neutral-deep">{product.name}</h3>
                     <p className="text-sm text-neutral-charcoal mt-1">{product.description}</p>
                     
+                    {/* Size Options */}
+                    {product.sizes && (
+                      <div className="flex gap-2 mt-3">
+                        {product.sizes.map((size) => (
+                          <button
+                            key={size}
+                            onClick={() => handleSizeSelect(product._id, size)}
+                            className={`px-3 py-1.5 rounded-md text-xs font-body font-medium transition-all ${
+                              selectedSizes[product._id] === size
+                                ? "bg-brand-green text-white"
+                                : "bg-[#F8FAFD] text-neutral-charcoal border border-[#E5E7EB] hover:border-neutral-300"
+                            }`}
+                          >
+                            {size}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                    
                     <div className="mt-3">
                       <p className="text-xl font-display font-bold text-brand-green">
                         ₮{product.price.toLocaleString()} /{product.unit}
@@ -162,6 +186,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
 
           {/* Pagination */}
           <div className="flex items-center justify-center gap-2 mt-12">
+            <span className="text-sm text-neutral-stone mr-4">1 - 6 / 12 бүтээгдэхүүн</span>
             <button className="w-9 h-9 rounded-md border border-[#E5E7EB] flex items-center justify-center text-neutral-stone hover:bg-neutral-50 bg-white">
               {'<'}
             </button>
@@ -178,21 +203,23 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
         </div>
       </section>
 
-      {/* Trust Bar - green, rounded-12 */}
-      <section className="bg-brand-green py-6">
-        <div className="max-w-site mx-auto px-12">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { icon: "🌿", text: "100% байгалийн" },
-              { icon: "❄️", text: "Хөргөгчтэй хүргэлт" },
-              { icon: "✓", text: "Чанарын баталгаа" },
-              { icon: "🚚", text: "Хурдан" },
-            ].map((item) => (
-              <div key={item.text} className="flex items-center justify-center gap-3 text-white">
-                <span className="text-xl">{item.icon}</span>
-                <span className="text-sm font-body font-semibold">{item.text}</span>
-              </div>
-            ))}
+      {/* Trust Bar - green, rounded-12 container */}
+      <section className="px-12 pb-12">
+        <div className="max-w-site mx-auto">
+          <div className="bg-brand-green rounded-xl py-6 px-12">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+              {[
+                { icon: "🌿", text: "100% байгалийн" },
+                { icon: "❄️", text: "Хөргөгчтэй хүргэлт" },
+                { icon: "✓", text: "Чанарын баталгаа" },
+                { icon: "🚚", text: "Хурдан" },
+              ].map((item) => (
+                <div key={item.text} className="flex items-center justify-center gap-3 text-white">
+                  <span className="text-xl">{item.icon}</span>
+                  <span className="text-sm font-body font-semibold">{item.text}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
