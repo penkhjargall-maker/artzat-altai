@@ -22,9 +22,9 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
 
   return (
     <div className="min-h-screen bg-[#F8FAFD]">
-      {/* Hero */}
+      {/* Hero - 200px, white */}
       <section className="bg-white py-16">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-site mx-auto px-12 text-center">
           <FadeIn direction="up">
             <h1 className="text-4xl lg:text-5xl font-display font-bold text-neutral-deep">
               Манай бүтээгдэхүүнийг эндээс харна уу
@@ -37,8 +37,8 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
       </section>
 
       {/* Filter Bar */}
-      <section className="bg-white border-b border-neutral-200 py-4">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-white border-b border-[#E5E7EB] py-4">
+        <div className="max-w-site mx-auto px-12">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
             {/* Categories */}
             <div className="flex flex-wrap gap-3">
@@ -49,7 +49,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                   className={`px-5 py-2.5 rounded-full text-sm font-body font-medium transition-all ${
                     activeCategory === cat
                       ? "bg-brand-green text-white"
-                      : "bg-white text-neutral-charcoal border border-neutral-200 hover:border-neutral-300"
+                      : "bg-white text-neutral-charcoal border border-[#E5E7EB] hover:border-neutral-300"
                   }`}
                 >
                   {cat}
@@ -66,18 +66,18 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                   placeholder="Хайх..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-9 pr-4 py-2 w-[200px] rounded-lg border border-neutral-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                  className="pl-9 pr-4 py-2 w-[200px] rounded-lg border border-[#E5E7EB] text-sm focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                 />
               </div>
 
-              <select className="px-4 py-2 rounded-lg border border-neutral-200 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-green/20">
+              <select className="px-4 py-2 rounded-lg border border-[#E5E7EB] text-sm bg-white focus:outline-none focus:ring-2 focus:ring-brand-green/20">
                 <option>Эрэмбэлэх</option>
                 <option>Үнэ: Бага - Их</option>
                 <option>Үнэ: Их - Бага</option>
                 <option>Шинээр нэмэгдсэн</option>
               </select>
 
-              <div className="flex border border-neutral-200 rounded-lg overflow-hidden">
+              <div className="flex border border-[#E5E7EB] rounded-lg overflow-hidden">
                 <button
                   onClick={() => setViewMode("grid")}
                   className={`p-2.5 ${viewMode === "grid" ? "bg-brand-green text-white" : "bg-white text-neutral-charcoal hover:bg-neutral-50"}`}
@@ -98,7 +98,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
 
       {/* Products Grid */}
       <section className="py-12">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <p className="text-sm text-neutral-stone mb-6">
             {filteredProducts.length} бүтээгдэхүүн олдлоо
           </p>
@@ -110,7 +110,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
           }`}>
             {filteredProducts.map((product, i) => (
               <FadeIn key={product._id} direction="up" delay={i * 0.05}>
-                <div className={`group bg-white rounded-xl border border-neutral-200 overflow-hidden hover:shadow-lg transition-shadow ${
+                <div className={`group bg-white rounded-xl border border-[#E5E7EB] overflow-hidden hover:shadow-lg transition-shadow ${
                   viewMode === "list" ? "flex" : ""
                 }`}>
                   {/* Image Area */}
@@ -119,7 +119,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                   }`}>
                     {product.badge && (
                       <span className={`absolute top-3 left-3 px-3 py-1.5 rounded-full text-xs font-body font-semibold text-white ${
-                        product.badge === "Бестселлер" ? "bg-altai-orange" : "bg-brand-green"
+                        product.badge === "Бестселлер" ? "bg-brand-orange" : "bg-brand-green"
                       }`}>
                         {product.badge}
                       </span>
@@ -138,8 +138,8 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
                     </div>
 
                     <div className="flex items-center gap-2 mt-2">
-                      <span className={`w-2 h-2 rounded-full ${product.inStock ? "bg-brand-green" : "bg-summit-red"}`} />
-                      <span className={`text-xs ${product.inStock ? "text-brand-green" : "text-summit-red"}`}>
+                      <span className={`w-2 h-2 rounded-full ${product.inStock ? "bg-brand-green" : "bg-brand-red"}`} />
+                      <span className={`text-xs ${product.inStock ? "text-brand-green" : "text-brand-red"}`}>
                         {product.inStock ? "Нөөцтэй" : "Дууссан"}
                       </span>
                     </div>
@@ -162,25 +162,25 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
 
           {/* Pagination */}
           <div className="flex items-center justify-center gap-2 mt-12">
-            <button className="w-9 h-9 rounded-md border border-neutral-200 flex items-center justify-center text-neutral-stone hover:bg-neutral-50 bg-white">
+            <button className="w-9 h-9 rounded-md border border-[#E5E7EB] flex items-center justify-center text-neutral-stone hover:bg-neutral-50 bg-white">
               {'<'}
             </button>
             <button className="w-9 h-9 rounded-md bg-brand-green text-white flex items-center justify-center font-body font-semibold text-sm">
               1
             </button>
-            <button className="w-9 h-9 rounded-md border border-neutral-200 flex items-center justify-center text-neutral-charcoal hover:bg-neutral-50 bg-white font-body text-sm">
+            <button className="w-9 h-9 rounded-md border border-[#E5E7EB] flex items-center justify-center text-neutral-charcoal hover:bg-neutral-50 bg-white font-body text-sm">
               2
             </button>
-            <button className="w-9 h-9 rounded-md border border-neutral-200 flex items-center justify-center text-neutral-charcoal hover:bg-neutral-50 bg-white font-body text-sm">
+            <button className="w-9 h-9 rounded-md border border-[#E5E7EB] flex items-center justify-center text-neutral-charcoal hover:bg-neutral-50 bg-white font-body text-sm">
               {'>'}
             </button>
           </div>
         </div>
       </section>
 
-      {/* Trust Bar */}
+      {/* Trust Bar - green, rounded-12 */}
       <section className="bg-brand-green py-6">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: "🌿", text: "100% байгалийн" },
@@ -199,7 +199,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
 
       {/* Recently Viewed */}
       <section className="py-12">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up">
             <p className="text-xs font-body font-semibold text-neutral-stone uppercase tracking-widest mb-2">
               САЯХАН ҮЗСЭН БҮТЭЭГДЭХҮҮН

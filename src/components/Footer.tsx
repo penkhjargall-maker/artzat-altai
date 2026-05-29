@@ -12,7 +12,7 @@ export default function Footer({ locale, menu = [] }: FooterProps) {
   const footerLinks = menu.length > 0 ? menu : [
     { _id: "1", label: "Бүтээгдэхүүн", url: "/products", order: 1 },
     { _id: "2", label: "Тендер", url: "/tender", order: 2 },
-    { _id: "3", label: "Мэдээ", url: "/news", order: 3 },
+    { _id: "3", label: "Мэдээ", url: "/blog", order: 3 },
     { _id: "4", label: "Бидний тухай", url: "/about", order: 4 },
   ];
 

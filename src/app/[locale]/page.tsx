@@ -5,15 +5,15 @@ import { FadeIn } from "@/components/motion/FadeIn";
 export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
   return (
     <div className="flex flex-col">
-      {/* Hero Section - White background */}
-      <section className="bg-white">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+      {/* Hero Section - White background, 600px height */}
+      <section className="bg-white min-h-[600px] flex items-center">
+        <div className="max-w-site mx-auto px-12 py-32">
           <FadeIn direction="up" className="text-center max-w-3xl mx-auto">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               МОНГОЛ ХҮНСНИЙ БОЛОВСРУУЛАЛТ
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-[56px] font-display font-extrabold text-neutral-deep mt-6 leading-tight">
-              Premium Food Processing For Modern Markets
+              Орчин үеийн зах зээлд зориулсан хүнсний боловсруулалт
             </h1>
             <p className="mt-6 text-lg text-neutral-charcoal max-w-2xl mx-auto">
               Монголын уугуул түүхий эдээс эхэлсэн
@@ -38,7 +38,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
       {/* Stats Bar - #F0EDE7 background */}
       <section className="bg-[#F0EDE7]">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="max-w-site mx-auto px-12 py-12">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { value: "25+", label: "ЖИЛИЙН ТУРШЛАГА" },
@@ -51,7 +51,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
                   {stat.value}
                 </div>
                 <div className="text-[13px] font-body font-medium text-neutral-charcoal mb-2">{stat.label}</div>
-                <div className="w-10 h-0.5 bg-altai-orange mx-auto"></div>
+                <div className="w-10 h-0.5 bg-brand-orange mx-auto"></div>
               </FadeIn>
             ))}
           </div>
@@ -60,7 +60,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
       {/* Featured Products */}
       <section className="bg-[#F8FAFD] py-20">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up" className="mb-12">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               БҮТЭЭГДЭХҮҮН
@@ -78,7 +78,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
             ].map((product, i) => (
               <FadeIn key={product.name} direction="up" delay={i * 0.1}>
                 <div className="group bg-white rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-                  <div className="aspect-[4/3] bg-neutral-parchment relative overflow-hidden">
+                  <div className="aspect-[4/3] bg-[#F0EDE7] relative overflow-hidden">
                     <div className="absolute inset-0 bg-neutral-200" />
                   </div>
                   <div className="p-6">
@@ -105,10 +105,10 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
       {/* Manufacturing Section */}
       <section className="bg-white py-20">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <FadeIn direction="left">
-              <div className="aspect-[4/3] bg-neutral-parchment rounded-lg overflow-hidden">
+              <div className="aspect-[4/3] bg-[#F0EDE7] rounded-lg overflow-hidden">
                 <div className="w-full h-full bg-neutral-200" />
               </div>
             </FadeIn>
@@ -131,7 +131,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
       {/* Sustainability */}
       <section className="bg-white py-20">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up" className="mb-12">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               ТУСТАЙ БАЙДАЛ
@@ -148,7 +148,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
               { title: "Хариуцлагатай хүргэлт", desc: "Хөргөгчтэй тээвэрлэлт" },
             ].map((item, i) => (
               <FadeIn key={item.title} direction="up" delay={i * 0.1}>
-                <div className="bg-white rounded-lg p-6 border border-neutral-200">
+                <div className="bg-white rounded-lg p-6 border border-[#E5E7EB]">
                   <h3 className="text-lg font-display font-bold text-neutral-deep mb-2">{item.title}</h3>
                   <p className="text-sm text-neutral-charcoal">{item.desc}</p>
                 </div>
@@ -160,7 +160,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
 
       {/* CTA Section */}
       <section className="bg-[#F8FAFD] py-24">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up" className="text-center max-w-2xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-display font-bold text-neutral-deep mb-4">
               Итгэлийг сонгох уу?

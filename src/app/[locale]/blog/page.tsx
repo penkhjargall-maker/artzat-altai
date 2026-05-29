@@ -28,8 +28,9 @@ const posts = [
 export default function BlogPage({ params: { locale } }: { params: { locale: string } }) {
   return (
     <div className="min-h-screen">
+      {/* Hero - white */}
       <section className="bg-white py-20">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up" className="text-center mb-12">
             <span className="text-sm font-body font-semibold text-brand-green tracking-wider uppercase">
               МЭДЭЭ
@@ -39,11 +40,12 @@ export default function BlogPage({ params: { locale } }: { params: { locale: str
             </h1>
           </FadeIn>
 
+          {/* Blog post cards - 3 cols */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.map((post, i) => (
               <FadeIn key={post._id} direction="up" delay={i * 0.1}>
                 <Link href={`/${locale}/blog/${post.slug}`} className="block group">
-                  <div className="bg-neutral-offwhite rounded-xl overflow-hidden">
+                  <div className="bg-[#F8F6F2] rounded-xl overflow-hidden">
                     <div className="aspect-video bg-neutral-200">
                       <div className="w-full h-full bg-neutral-300 group-hover:bg-neutral-400 transition-colors" />
                     </div>

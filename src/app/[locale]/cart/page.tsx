@@ -33,14 +33,19 @@ export default function CartPage({ params: { locale } }: { params: { locale: str
   };
 
   return (
-    <div className="min-h-screen bg-neutral-offwhite">
-      <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <FadeIn direction="up">
-          <h1 className="text-3xl font-display font-bold text-neutral-deep mb-8">
-            Сагс ({items.length})
-          </h1>
-        </FadeIn>
+    <div className="min-h-screen bg-[#F8F6F2]">
+      {/* Hero */}
+      <section className="bg-white py-16">
+        <div className="max-w-site mx-auto px-12">
+          <FadeIn direction="up">
+            <h1 className="text-3xl font-display font-bold text-neutral-deep">
+              Сагс ({items.length})
+            </h1>
+          </FadeIn>
+        </div>
+      </section>
 
+      <div className="max-w-site mx-auto px-12 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Cart Items */}
           <div className="lg:col-span-2">
@@ -48,7 +53,7 @@ export default function CartPage({ params: { locale } }: { params: { locale: str
               {items.map((item, i) => (
                 <FadeIn key={item.id} direction="up" delay={i * 0.1}>
                   <div className="bg-white rounded-xl p-6 flex items-center gap-6">
-                    <div className="w-20 h-20 bg-neutral-parchment rounded-lg flex items-center justify-center text-3xl">
+                    <div className="w-20 h-20 bg-[#F0EDE7] rounded-lg flex items-center justify-center text-3xl">
                       {item.image}
                     </div>
 
@@ -63,14 +68,14 @@ export default function CartPage({ params: { locale } }: { params: { locale: str
                     <div className="flex items-center gap-3">
                       <button
                         onClick={() => updateQuantity(item.id, -1)}
-                        className="w-8 h-8 rounded-full border border-neutral-200 flex items-center justify-center text-neutral-charcoal hover:bg-neutral-offwhite transition-colors"
+                        className="w-8 h-8 rounded-full border border-[#E5E7EB] flex items-center justify-center text-neutral-charcoal hover:bg-[#F8F6F2] transition-colors"
                       >
                         -
                       </button>
                       <span className="w-8 text-center font-body font-medium">{item.quantity}</span>
                       <button
                         onClick={() => updateQuantity(item.id, 1)}
-                        className="w-8 h-8 rounded-full border border-neutral-200 flex items-center justify-center text-neutral-charcoal hover:bg-neutral-offwhite transition-colors"
+                        className="w-8 h-8 rounded-full border border-[#E5E7EB] flex items-center justify-center text-neutral-charcoal hover:bg-[#F8F6F2] transition-colors"
                       >
                         +
                       </button>
@@ -82,7 +87,7 @@ export default function CartPage({ params: { locale } }: { params: { locale: str
                       </p>
                       <button
                         onClick={() => removeItem(item.id)}
-                        className="text-sm text-summit-red hover:text-summit-red/80 transition-colors mt-1"
+                        className="text-sm text-brand-red hover:text-brand-red/80 transition-colors mt-1"
                       >
                         Хасах
                       </button>
@@ -111,7 +116,7 @@ export default function CartPage({ params: { locale } }: { params: { locale: str
                   <span>НӨАТ</span>
                   <span>₮{tax.toLocaleString()}</span>
                 </div>
-                <div className="border-t border-neutral-200 pt-3 flex justify-between font-display font-bold text-neutral-deep">
+                <div className="border-t border-[#E5E7EB] pt-3 flex justify-between font-display font-bold text-neutral-deep">
                   <span>Нийт</span>
                   <span>₮{total.toLocaleString()}</span>
                 </div>
@@ -123,7 +128,7 @@ export default function CartPage({ params: { locale } }: { params: { locale: str
                   value={promoCode}
                   onChange={(e) => setPromoCode(e.target.value)}
                   placeholder="Урамшууллын код"
-                  className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                  className="w-full px-4 py-3 rounded-lg border border-[#E5E7EB] focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                 />
 
                 <Link
@@ -138,7 +143,7 @@ export default function CartPage({ params: { locale } }: { params: { locale: str
                 </button>
               </div>
 
-              <div className="mt-6 p-4 bg-neutral-offwhite rounded-lg">
+              <div className="mt-6 p-4 bg-[#F8F6F2] rounded-lg">
                 <p className="text-sm text-neutral-charcoal">
                   🚚 Хүргэлт: 2-3 ажлын өдөр
                 </p>

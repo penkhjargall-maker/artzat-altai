@@ -16,7 +16,7 @@ export const mockPosts: Post[] = [
 export const mockHeaderMenu: NavItem[] = [
   { _id: "1", label: "БҮТЭЭГДЭХҮҮН", url: "/products", order: 1 },
   { _id: "2", label: "ТЕНДЕР", url: "/tender", order: 2 },
-  { _id: "3", label: "МЭДЭЭ", url: "/news", order: 3 },
+  { _id: "3", label: "МЭДЭЭ", url: "/blog", order: 3 },
   { _id: "4", label: "БИДНИЙ ТУХАЙ", url: "/about", order: 4 },
   { _id: "5", label: "ХОЛБОО", url: "/contact", order: 5 },
 ];
@@ -24,7 +24,7 @@ export const mockHeaderMenu: NavItem[] = [
 export const mockFooterMenu: NavItem[] = [
   { _id: "1", label: "Бүтээгдэхүүн", url: "/products", order: 1 },
   { _id: "2", label: "Тендер", url: "/tender", order: 2 },
-  { _id: "3", label: "Мэдээ", url: "/news", order: 3 },
+  { _id: "3", label: "Мэдээ", url: "/blog", order: 3 },
   { _id: "4", label: "Бидний тухай", url: "/about", order: 4 },
 ];
 

@@ -4,15 +4,15 @@ import { FadeIn } from "@/components/motion/FadeIn";
 export default function AboutPage({ params: { locale } }: { params: { locale: string } }) {
   return (
     <div className="min-h-screen">
-      {/* Hero */}
+      {/* Hero - 300px, white */}
       <section className="bg-white py-20">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-site mx-auto px-12 text-center">
           <FadeIn direction="up">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               БИДНИЙ ТУХАЙ
             </span>
             <h1 className="text-4xl lg:text-5xl font-display font-extrabold text-neutral-deep mt-4 max-w-3xl mx-auto">
-              We make things people actually want to keep.
+              Бид хүмүүс жинхэнэ хүсдэг зүйлийг хийдэг
             </h1>
             <p className="mt-4 text-lg text-neutral-charcoal max-w-2xl mx-auto">
               Арцат Алтайн Уулс ХХК нь Монголын хүнсний боловсруулах үйлдвэрлэлийн салбарт 25 гаруй жилийн туршлагатай. Бид чанар, аюулгүй байдал, амтыг эрхэмлэдэг.
@@ -21,9 +21,9 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
         </div>
       </section>
 
-      {/* Stats */}
+      {/* Stats - 3 cards */}
       <section className="bg-white py-12">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { value: "25+", label: "жилийн туршлага" },
@@ -39,9 +39,9 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
         </div>
       </section>
 
-      {/* Story */}
+      {/* Story - 2-col */}
       <section className="bg-[#F8FAFD] py-20">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <FadeIn direction="left">
               <div className="space-y-4">
@@ -65,9 +65,9 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
         </div>
       </section>
 
-      {/* Values */}
+      {/* Values - list with dividers */}
       <section className="py-20 bg-white">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               БИДНИЙ ҮНЭТ ЗҮЙЛС
@@ -76,17 +76,17 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
 
           <div className="mt-8 space-y-0">
             {[
-              { icon: "🌱", title: "Sustainably sourced", subtitle: "Тогтвортой эх үүсвэр" },
-              { icon: "💎", title: "Designed to last", subtitle: "Удаан эдэлгээтэй" },
-              { icon: "❤️", title: "Made with care", subtitle: "Хайртайгаар хийсэн" },
+              { icon: "🌱", title: "Тогтвортой эх үүсвэр", subtitle: "Байгалийн балансыг хадгална" },
+              { icon: "💎", title: "Удаан эдэлгээтэй", subtitle: "Чанар нь цаг хугацааг туулна" },
+              { icon: "❤️", title: "Хайртайгаар хийсэн", subtitle: "Гарын аргаар элсэх" },
             ].map((value, i) => (
               <FadeIn key={value.title} direction="up" delay={i * 0.1}>
-                <div className={`flex items-center gap-4 py-6 ${i < 2 ? 'border-b border-neutral-200' : ''}`}>
+                <div className={`flex items-center gap-4 py-6 ${i < 2 ? 'border-b border-[#E5E7EB]' : ''}`}>
                   <div className="w-12 h-12 bg-[#F8FAFD] rounded-lg flex items-center justify-center text-xl flex-shrink-0">
                     {value.icon}
                   </div>
                   <p className="text-lg font-display font-semibold text-neutral-deep">
-                    {value.title} - {value.subtitle}
+                    {value.title} — {value.subtitle}
                   </p>
                 </div>
               </FadeIn>
@@ -95,9 +95,9 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
         </div>
       </section>
 
-      {/* Team */}
+      {/* Team - 3 cards */}
       <section className="py-20 bg-[#F8FAFD]">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               БИДНИЙ БАГ
@@ -124,9 +124,9 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
         </div>
       </section>
 
-      {/* Press */}
+      {/* Press - list */}
       <section className="py-20 bg-white">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <FadeIn direction="up">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               МЭДЭЭ МЭДЭЭЛЭЛ
@@ -135,12 +135,12 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
 
           <div className="mt-8 space-y-0">
             {[
-              { source: "Wired", title: "Mongolian meat exports reach new heights in 2024", date: "Dec 2024" },
-              { source: "Fast Company", title: "How Artzat Altai is modernizing food processing", date: "Nov 2024" },
-              { source: "Dezeen", title: "Sustainable food production in the Mongolian steppe", date: "Oct 2024" },
+              { source: "Wired", title: "Монголын махны экспорт 2024 онд шинэ рекорд тогтоолоо", date: "2024.12" },
+              { source: "Fast Company", title: "Арцат Алтай хүнсний боловсруулалтыг хэрхэн орчин үеийн болгож байна", date: "2024.11" },
+              { source: "Dezeen", title: "Монголын тал хээр тогтвортой хүнсний үйлдвэрлэл", date: "2024.10" },
             ].map((press, i) => (
               <FadeIn key={press.source} direction="up" delay={i * 0.1}>
-                <div className={`flex items-center gap-4 py-5 ${i < 2 ? 'border-b border-neutral-200' : ''}`}>
+                <div className={`flex items-center gap-4 py-5 ${i < 2 ? 'border-b border-[#E5E7EB]' : ''}`}>
                   <div className="w-[60px] h-[60px] bg-[#F0EDE7] rounded-lg flex-shrink-0" />
                   <div className="flex-1">
                     <p className="text-sm font-body font-semibold text-neutral-deep">{press.source}</p>
@@ -156,7 +156,7 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
 
       {/* CTA */}
       <section className="py-20 bg-[#F8FAFD]">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-site mx-auto px-12 text-center">
           <FadeIn direction="up">
             <h2 className="text-2xl lg:text-3xl font-display font-bold text-neutral-deep mb-6">
               Асуулт байна уу эсвэл зүгээр л мэндчилмээр байна уу?

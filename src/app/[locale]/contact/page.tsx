@@ -18,9 +18,9 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
 
   return (
     <div className="min-h-screen">
-      {/* Hero */}
+      {/* Hero - 300px, white */}
       <section className="bg-white py-20">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-site mx-auto px-12 text-center">
           <FadeIn direction="up">
             <span className="text-xs font-body font-semibold text-brand-green uppercase tracking-widest">
               ХОЛБОО БАРИХ
@@ -34,7 +34,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
 
       {/* Contact Form & Info */}
       <section className="py-20 bg-[#F8FAFD]">
-        <div className="max-w-site mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-site mx-auto px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Form */}
             <FadeIn direction="left">
@@ -46,7 +46,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     type="text"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-3 h-12 rounded-md border border-neutral-200 bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                    className="w-full px-4 py-3 h-12 rounded-md border border-[#E5E7EB] bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                     placeholder="Нэр"
                   />
 
@@ -54,7 +54,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     type="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-4 py-3 h-12 rounded-md border border-neutral-200 bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                    className="w-full px-4 py-3 h-12 rounded-md border border-[#E5E7EB] bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                     placeholder="И-мэйл"
                   />
 
@@ -62,7 +62,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     type="tel"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full px-4 py-3 h-12 rounded-md border border-neutral-200 bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20"
+                    className="w-full px-4 py-3 h-12 rounded-md border border-[#E5E7EB] bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20"
                     placeholder="Утас"
                   />
 
@@ -70,7 +70,7 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
                     rows={5}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full px-4 py-3 rounded-md border border-neutral-200 bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20 resize-none"
+                    className="w-full px-4 py-3 rounded-md border border-[#E5E7EB] bg-[#F8F6F2] focus:outline-none focus:ring-2 focus:ring-brand-green/20 resize-none"
                     placeholder="Мессеж"
                   />
                 </div>
