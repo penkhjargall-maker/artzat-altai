@@ -4,13 +4,9 @@ const staticPages = [
   { slug: "home", locale: "mn" },
   { slug: "about", locale: "mn" },
   { slug: "contact", locale: "mn" },
-  { slug: "products", locale: "mn" },
-  { slug: "tender", locale: "mn" },
   { slug: "home", locale: "en" },
   { slug: "about", locale: "en" },
   { slug: "contact", locale: "en" },
-  { slug: "products", locale: "en" },
-  { slug: "tender", locale: "en" },
 ];
 
 const pageContent: Record<string, Record<string, { name: string; content: string }>> = {
@@ -18,15 +14,11 @@ const pageContent: Record<string, Record<string, { name: string; content: string
     home: { name: "Нүүр", content: "<h1>Арцат Алтайн Уулс</h1><p>Монголын уугуул түүхий эдээс эхэлсэн.</p>" },
     about: { name: "Бидний тухай", content: "<h1>Бидний тухай</h1><p>25 гаруй жилийн туршлагатай.</p>" },
     contact: { name: "Холбоо барих", content: "<h1>Холбоо барих</h1><p>Бидэнтэй холбогдох.</p>" },
-    products: { name: "Бүтээгдэхүүн", content: "<h1>Бүтээгдэхүүн</h1><p>Манай бүтээгдэхүүний жагсаалт.</p>" },
-    tender: { name: "Тендер & B2B", content: "<h1>Тендер & B2B</h1><p>Төрийн байгууллагын хүнсний хангамж.</p>" },
   },
   en: {
     home: { name: "Home", content: "<h1>Artzat Altai Uuls</h1><p>Starting from Mongolian raw materials.</p>" },
     about: { name: "About Us", content: "<h1>About Us</h1><p>Over 25 years of experience.</p>" },
     contact: { name: "Contact", content: "<h1>Contact Us</h1><p>Get in touch with us.</p>" },
-    products: { name: "Products", content: "<h1>Products</h1><p>Our product catalog.</p>" },
-    tender: { name: "Tender & B2B", content: "<h1>Tender & B2B</h1><p>Government food procurement.</p>" },
   },
 };
 
