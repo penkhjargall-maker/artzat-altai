@@ -32,7 +32,7 @@ export default function ProductsPage({ params: { locale } }: { params: { locale:
         <div className="max-w-site mx-auto px-12 py-16 text-center">
           <FadeIn direction="up">
             <h1 className="text-4xl lg:text-5xl font-display font-extrabold text-neutral-deep">
-              Манай бүтээгдэхүүнийг эндээс харна уу
+              Манай бүтээгдэхүүнийг эндээс харна уу — V2
             </h1>
             <p className="mt-4 text-lg text-neutral-charcoal">
               Шинэхэн • Чанартай • Монголын уулын мах

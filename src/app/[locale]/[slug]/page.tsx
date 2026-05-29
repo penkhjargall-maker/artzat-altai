@@ -26,6 +26,8 @@ export async function generateStaticParams() {
   return staticPages;
 }
 
+export const dynamicParams = false;
+
 export async function generateMetadata({
   params,
 }: {
